@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="3PD-WW-rVm">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Tic_Tac_Toe" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="field" id="gNK-qs-SeU">
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="x" id="qzI-8K-Nih" customClass="TTTImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
+                                <rect key="frame" x="135" y="193" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView tag="2" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="x" id="OLE-xG-KHB" customClass="TTTImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
+                                <rect key="frame" x="234" y="193" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView tag="3" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="x" id="Vpq-i6-Blm" customClass="TTTImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
+                                <rect key="frame" x="34" y="300" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView tag="4" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="x" id="g7O-S9-CXk" customClass="TTTImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
+                                <rect key="frame" x="135" y="300" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView tag="5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="x" id="F7d-Nm-UxR" customClass="TTTImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
+                                <rect key="frame" x="234" y="300" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView tag="6" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="x" id="37k-S3-oB3" customClass="TTTImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
+                                <rect key="frame" x="34" y="405" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView tag="7" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="x" id="BTO-d6-RXg" customClass="TTTImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
+                                <rect key="frame" x="135" y="405" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="x" id="w2W-XG-qqV" customClass="TTTImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
+                                <rect key="frame" x="34" y="193" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView tag="8" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="x" id="YZe-b4-QPi" customClass="TTTImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
+                                <rect key="frame" x="234" y="405" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="m9F-D0-93M">
+                        <barButtonItem key="leftBarButtonItem" title="Connect" id="NTw-lU-pGL">
+                            <connections>
+                                <action selector="connectWithPlayer:" destination="vXZ-lx-hvc" id="wvP-io-Q9f"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="New Game" id="aNp-VN-tkz"/>
+                    </navigationItem>
+                    <connections>
+                        <outletCollection property="fields" destination="w2W-XG-qqV" collectionClass="NSMutableArray" id="xu8-Rl-qGV"/>
+                        <outletCollection property="fields" destination="qzI-8K-Nih" collectionClass="NSMutableArray" id="Zjp-hR-bFQ"/>
+                        <outletCollection property="fields" destination="OLE-xG-KHB" collectionClass="NSMutableArray" id="tXS-1P-uNF"/>
+                        <outletCollection property="fields" destination="Vpq-i6-Blm" collectionClass="NSMutableArray" id="TqY-KU-hUs"/>
+                        <outletCollection property="fields" destination="g7O-S9-CXk" collectionClass="NSMutableArray" id="KIC-1J-amy"/>
+                        <outletCollection property="fields" destination="F7d-Nm-UxR" collectionClass="NSMutableArray" id="rtP-nY-ERW"/>
+                        <outletCollection property="fields" destination="37k-S3-oB3" collectionClass="NSMutableArray" id="CGA-jv-oZC"/>
+                        <outletCollection property="fields" destination="BTO-d6-RXg" collectionClass="NSMutableArray" id="sIx-Ye-s3F"/>
+                        <outletCollection property="fields" destination="YZe-b4-QPi" collectionClass="NSMutableArray" id="pye-sa-Gjt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="694" y="406"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="lRx-09-vgw">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="3PD-WW-rVm" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ow4-DK-5Ri">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="CX8-pe-IiR"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qsb-oC-wCP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="162" y="406"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="field" width="320" height="503"/>
+        <image name="x" width="50" height="50"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
