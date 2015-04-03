@@ -16,39 +16,39 @@
                                 <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <imageView tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="x" id="qzI-8K-Nih" customClass="TTTImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
+                            <imageView tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="qzI-8K-Nih" customClass="TTTImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
                                 <rect key="frame" x="135" y="193" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView tag="2" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="x" id="OLE-xG-KHB" customClass="TTTImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
+                            <imageView tag="2" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="OLE-xG-KHB" customClass="TTTImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
                                 <rect key="frame" x="234" y="193" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView tag="3" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="x" id="Vpq-i6-Blm" customClass="TTTImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
+                            <imageView tag="3" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="Vpq-i6-Blm" customClass="TTTImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
                                 <rect key="frame" x="34" y="300" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView tag="4" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="x" id="g7O-S9-CXk" customClass="TTTImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
+                            <imageView tag="4" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="g7O-S9-CXk" customClass="TTTImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
                                 <rect key="frame" x="135" y="300" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView tag="5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="x" id="F7d-Nm-UxR" customClass="TTTImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
+                            <imageView tag="5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="F7d-Nm-UxR" customClass="TTTImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
                                 <rect key="frame" x="234" y="300" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView tag="6" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="x" id="37k-S3-oB3" customClass="TTTImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
+                            <imageView tag="6" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="37k-S3-oB3" customClass="TTTImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
                                 <rect key="frame" x="34" y="405" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView tag="7" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="x" id="BTO-d6-RXg" customClass="TTTImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
+                            <imageView tag="7" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="BTO-d6-RXg" customClass="TTTImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
                                 <rect key="frame" x="135" y="405" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="x" id="w2W-XG-qqV" customClass="TTTImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="w2W-XG-qqV" customClass="TTTImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
                                 <rect key="frame" x="34" y="193" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView tag="8" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="x" id="YZe-b4-QPi" customClass="TTTImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
+                            <imageView tag="8" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="YZe-b4-QPi" customClass="TTTImageView" customModule="Tic_Tac_Toe" customModuleProvider="target">
                                 <rect key="frame" x="234" y="405" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -61,7 +61,11 @@
                                 <action selector="connectWithPlayer:" destination="vXZ-lx-hvc" id="wvP-io-Q9f"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="New Game" id="aNp-VN-tkz"/>
+                        <barButtonItem key="rightBarButtonItem" title="New Game" id="aNp-VN-tkz">
+                            <connections>
+                                <action selector="newGame:" destination="vXZ-lx-hvc" id="gZi-Y6-7Fb"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outletCollection property="fields" destination="w2W-XG-qqV" collectionClass="NSMutableArray" id="xu8-Rl-qGV"/>
@@ -100,7 +104,6 @@
     </scenes>
     <resources>
         <image name="field" width="320" height="503"/>
-        <image name="x" width="50" height="50"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
