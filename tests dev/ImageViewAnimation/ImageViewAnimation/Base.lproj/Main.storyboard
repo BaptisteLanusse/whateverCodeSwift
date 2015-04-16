@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="ImageViewAnimation" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bomb.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Vy4-P5-OPt">
+                                <rect key="frame" x="112" y="105" width="96" height="96"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UdF-Uv-9sS">
+                                <rect key="frame" x="108" y="225" width="106" height="30"/>
+                                <state key="normal" title="Start Animation">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="animationButtonClicked:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="9V6-YE-NOW"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="UdF-Uv-9sS" firstAttribute="top" secondItem="Vy4-P5-OPt" secondAttribute="bottom" constant="24" id="337-iP-FmF"/>
+                            <constraint firstAttribute="centerY" secondItem="UdF-Uv-9sS" secondAttribute="centerY" id="39e-eW-hOk"/>
+                            <constraint firstItem="Vy4-P5-OPt" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="96" id="9dE-DE-dJj"/>
+                            <constraint firstAttribute="centerX" secondItem="UdF-Uv-9sS" secondAttribute="centerX" constant="-0.5" id="cVi-1f-hOf"/>
+                            <constraint firstAttribute="centerY" secondItem="Vy4-P5-OPt" secondAttribute="centerY" constant="87" id="kxD-H8-b8s"/>
+                            <constraint firstItem="Vy4-P5-OPt" firstAttribute="centerX" secondItem="UdF-Uv-9sS" secondAttribute="centerX" constant="-1" id="nSz-gG-e4P"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="button" destination="UdF-Uv-9sS" id="NdO-P7-CAO"/>
+                        <outlet property="imageView" destination="Vy4-P5-OPt" id="y3b-Iq-zKS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="429"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bomb.jpg" width="96" height="96"/>
+    </resources>
+</document>
