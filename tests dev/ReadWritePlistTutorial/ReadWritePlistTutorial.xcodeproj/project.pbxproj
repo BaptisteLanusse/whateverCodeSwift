@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96DFA10F1AE0F4B90056DF65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DFA10E1AE0F4B90056DF65 /* AppDelegate.swift */; };
+		96DFA1111AE0F4B90056DF65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DFA1101AE0F4B90056DF65 /* ViewController.swift */; };
+		96DFA1141AE0F4B90056DF65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96DFA1121AE0F4B90056DF65 /* Main.storyboard */; };
+		96DFA1161AE0F4B90056DF65 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96DFA1151AE0F4B90056DF65 /* Images.xcassets */; };
+		96DFA1191AE0F4B90056DF65 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96DFA1171AE0F4B90056DF65 /* LaunchScreen.xib */; };
+		96DFA1251AE0F4B90056DF65 /* ReadWritePlistTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DFA1241AE0F4B90056DF65 /* ReadWritePlistTutorialTests.swift */; };
+		96DFA12F1AE0F4C20056DF65 /* GameData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 96DFA12E1AE0F4C20056DF65 /* GameData.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96DFA11F1AE0F4B90056DF65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96DFA1011AE0F4B90056DF65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96DFA1081AE0F4B90056DF65;
+			remoteInfo = ReadWritePlistTutorial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		96DFA1091AE0F4B90056DF65 /* ReadWritePlistTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReadWritePlistTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96DFA10D1AE0F4B90056DF65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96DFA10E1AE0F4B90056DF65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		96DFA1101AE0F4B90056DF65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		96DFA1131AE0F4B90056DF65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96DFA1151AE0F4B90056DF65 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		96DFA1181AE0F4B90056DF65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		96DFA11E1AE0F4B90056DF65 /* ReadWritePlistTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReadWritePlistTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96DFA1231AE0F4B90056DF65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96DFA1241AE0F4B90056DF65 /* ReadWritePlistTutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadWritePlistTutorialTests.swift; sourceTree = "<group>"; };
+		96DFA12E1AE0F4C20056DF65 /* GameData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GameData.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96DFA1061AE0F4B90056DF65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96DFA11B1AE0F4B90056DF65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96DFA1001AE0F4B80056DF65 = {
+			isa = PBXGroup;
+			children = (
+				96DFA10B1AE0F4B90056DF65 /* ReadWritePlistTutorial */,
+				96DFA1211AE0F4B90056DF65 /* ReadWritePlistTutorialTests */,
+				96DFA10A1AE0F4B90056DF65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96DFA10A1AE0F4B90056DF65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96DFA1091AE0F4B90056DF65 /* ReadWritePlistTutorial.app */,
+				96DFA11E1AE0F4B90056DF65 /* ReadWritePlistTutorialTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96DFA10B1AE0F4B90056DF65 /* ReadWritePlistTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				96DFA10E1AE0F4B90056DF65 /* AppDelegate.swift */,
+				96DFA1101AE0F4B90056DF65 /* ViewController.swift */,
+				96DFA1121AE0F4B90056DF65 /* Main.storyboard */,
+				96DFA1151AE0F4B90056DF65 /* Images.xcassets */,
+				96DFA1171AE0F4B90056DF65 /* LaunchScreen.xib */,
+				96DFA12E1AE0F4C20056DF65 /* GameData.plist */,
+				96DFA10C1AE0F4B90056DF65 /* Supporting Files */,
+			);
+			path = ReadWritePlistTutorial;
+			sourceTree = "<group>";
+		};
+		96DFA10C1AE0F4B90056DF65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96DFA10D1AE0F4B90056DF65 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96DFA1211AE0F4B90056DF65 /* ReadWritePlistTutorialTests */ = {
+			isa = PBXGroup;
+			children = (
+				96DFA1241AE0F4B90056DF65 /* ReadWritePlistTutorialTests.swift */,
+				96DFA1221AE0F4B90056DF65 /* Supporting Files */,
+			);
+			path = ReadWritePlistTutorialTests;
+			sourceTree = "<group>";
+		};
+		96DFA1221AE0F4B90056DF65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96DFA1231AE0F4B90056DF65 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96DFA1081AE0F4B90056DF65 /* ReadWritePlistTutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96DFA1281AE0F4B90056DF65 /* Build configuration list for PBXNativeTarget "ReadWritePlistTutorial" */;
+			buildPhases = (
+				96DFA1051AE0F4B90056DF65 /* Sources */,
+				96DFA1061AE0F4B90056DF65 /* Frameworks */,
+				96DFA1071AE0F4B90056DF65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReadWritePlistTutorial;
+			productName = ReadWritePlistTutorial;
+			productReference = 96DFA1091AE0F4B90056DF65 /* ReadWritePlistTutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96DFA11D1AE0F4B90056DF65 /* ReadWritePlistTutorialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96DFA12B1AE0F4B90056DF65 /* Build configuration list for PBXNativeTarget "ReadWritePlistTutorialTests" */;
+			buildPhases = (
+				96DFA11A1AE0F4B90056DF65 /* Sources */,
+				96DFA11B1AE0F4B90056DF65 /* Frameworks */,
+				96DFA11C1AE0F4B90056DF65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96DFA1201AE0F4B90056DF65 /* PBXTargetDependency */,
+			);
+			name = ReadWritePlistTutorialTests;
+			productName = ReadWritePlistTutorialTests;
+			productReference = 96DFA11E1AE0F4B90056DF65 /* ReadWritePlistTutorialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96DFA1011AE0F4B90056DF65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Lanusse Baptiste";
+				TargetAttributes = {
+					96DFA1081AE0F4B90056DF65 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					96DFA11D1AE0F4B90056DF65 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 96DFA1081AE0F4B90056DF65;
+					};
+				};
+			};
+			buildConfigurationList = 96DFA1041AE0F4B90056DF65 /* Build configuration list for PBXProject "ReadWritePlistTutorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96DFA1001AE0F4B80056DF65;
+			productRefGroup = 96DFA10A1AE0F4B90056DF65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96DFA1081AE0F4B90056DF65 /* ReadWritePlistTutorial */,
+				96DFA11D1AE0F4B90056DF65 /* ReadWritePlistTutorialTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96DFA1071AE0F4B90056DF65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96DFA12F1AE0F4C20056DF65 /* GameData.plist in Resources */,
+				96DFA1141AE0F4B90056DF65 /* Main.storyboard in Resources */,
+				96DFA1191AE0F4B90056DF65 /* LaunchScreen.xib in Resources */,
+				96DFA1161AE0F4B90056DF65 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96DFA11C1AE0F4B90056DF65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96DFA1051AE0F4B90056DF65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96DFA1111AE0F4B90056DF65 /* ViewController.swift in Sources */,
+				96DFA10F1AE0F4B90056DF65 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96DFA11A1AE0F4B90056DF65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96DFA1251AE0F4B90056DF65 /* ReadWritePlistTutorialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96DFA1201AE0F4B90056DF65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96DFA1081AE0F4B90056DF65 /* ReadWritePlistTutorial */;
+			targetProxy = 96DFA11F1AE0F4B90056DF65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		96DFA1121AE0F4B90056DF65 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96DFA1131AE0F4B90056DF65 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		96DFA1171AE0F4B90056DF65 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96DFA1181AE0F4B90056DF65 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96DFA1261AE0F4B90056DF65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96DFA1271AE0F4B90056DF65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96DFA1291AE0F4B90056DF65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ReadWritePlistTutorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		96DFA12A1AE0F4B90056DF65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ReadWritePlistTutorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		96DFA12C1AE0F4B90056DF65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ReadWritePlistTutorialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReadWritePlistTutorial.app/ReadWritePlistTutorial";
+			};
+			name = Debug;
+		};
+		96DFA12D1AE0F4B90056DF65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ReadWritePlistTutorialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReadWritePlistTutorial.app/ReadWritePlistTutorial";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96DFA1041AE0F4B90056DF65 /* Build configuration list for PBXProject "ReadWritePlistTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96DFA1261AE0F4B90056DF65 /* Debug */,
+				96DFA1271AE0F4B90056DF65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96DFA1281AE0F4B90056DF65 /* Build configuration list for PBXNativeTarget "ReadWritePlistTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96DFA1291AE0F4B90056DF65 /* Debug */,
+				96DFA12A1AE0F4B90056DF65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		96DFA12B1AE0F4B90056DF65 /* Build configuration list for PBXNativeTarget "ReadWritePlistTutorialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96DFA12C1AE0F4B90056DF65 /* Debug */,
+				96DFA12D1AE0F4B90056DF65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96DFA1011AE0F4B90056DF65 /* Project object */;
+}
