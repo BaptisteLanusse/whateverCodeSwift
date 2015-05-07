@@ -12,8 +12,10 @@ class ViewController: UIViewController {
             UIView.animateWithDuration(1.0, animations: { () -> Void in
                 self.view.backgroundColor = originalColor
             })
-        } else {
+        } else if sender.identifier == "idSecondSegueUnwind" {
             self.lblMessage.text = "Welcome back!"
+        } else {
+            self.lblMessage.text = "Whatcha doing here?"
         }
     }
     
@@ -27,6 +29,9 @@ class ViewController: UIViewController {
         var swipeGestureRecognizer: UISwipeGestureRecognizer = UISwipeGestureRecognizer(target: self, action: "showSecondViewController")
         swipeGestureRecognizer.direction = UISwipeGestureRecognizerDirection.Up
         self.view.addGestureRecognizer(swipeGestureRecognizer)
+        var downSwipeGestureRecognizer: UISwipeGestureRecognizer = UISwipeGestureRecognizer(target: self, action: "showFourthViewController")
+        downSwipeGestureRecognizer.direction = UISwipeGestureRecognizerDirection.Down
+        self.view.addGestureRecognizer(downSwipeGestureRecognizer)
     }
 
     override func didReceiveMemoryWarning() {
@@ -36,6 +41,10 @@ class ViewController: UIViewController {
 
     func showSecondViewController(){
         self.performSegueWithIdentifier("idFirstSegue", sender: self)
+    }
+    
+    func showFourthViewController(){
+        self.performSegueWithIdentifier("idThirdSegue", sender: self)
     }
     
     override func segueForUnwindingToViewController(toViewController: UIViewController, fromViewController: UIViewController, identifier: String?) -> UIStoryboardSegue {
@@ -48,6 +57,12 @@ class ViewController: UIViewController {
             }
             else if id == "idSecondSegueUnwind" {
                 let unwindSegue = SecondCustomSegueUnwind(identifier: id, source: fromViewController, destination: toViewController, performHandler: { () -> Void in
+                    
+                })
+                return unwindSegue
+            }
+            else if id == "idThirdSegueUnwind" {
+                let unwindSegue = ThirdCustomSegueUnwind(identifier: id, source: fromViewController, destination: toViewController, performHandler: { () -> Void in
                     
                 })
                 return unwindSegue
