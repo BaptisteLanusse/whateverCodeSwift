@@ -73,7 +73,7 @@ class GameScene: SKScene {
     }
     
     override func touchesEnded(touches: Set<NSObject>, withEvent event: UIEvent) {
-        let touch = touches.anyObject() as UITouch
+        let touch = touches.anyObject() as? UITouch
         let touchLocation = touch.locationInNo
     }
 }

@@ -62,7 +62,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
     }
 
     @IBAction func handlePan(recognizer :UIPanGestureRecognizer){
-        /*let translation = recognizer.translationInView(self.view)
+        let translation = recognizer.translationInView(self.view)
         if let view = recognizer.view {
             view.center = CGPoint(x: view.center.x + translation.x, y: view.center.y + translation.y)
         }
@@ -91,7 +91,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
                 options: UIViewAnimationOptions.CurveEaseOut,
                 animations: {recognizer.view!.center = finalPoint },
                 completion: nil)
-        }*/
+        }
         return;
     }
     

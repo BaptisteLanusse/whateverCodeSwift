@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>63CADBB9-D988-4160-85D9-3CD5F234040A</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>SpriteKitSimpleGame</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>CF766DD32C2DD3A1779FE7EB6FBDE75C8C2E3CC8</key>
 		<string>https://github.com/BaptisteLanusse/whateverCodeSwift.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>tests dev/SpriteKitSimpleGame/SpriteKitSimpleGame.xcodeproj/project.xcworkspace</string>
+	<string>tests dev/SpriteKitSimpleGame/SpriteKitSimpleGame.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>CF766DD32C2DD3A1779FE7EB6FBDE75C8C2E3CC8</key>

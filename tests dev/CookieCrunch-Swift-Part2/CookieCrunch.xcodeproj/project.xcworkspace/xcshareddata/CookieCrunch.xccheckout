@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>BEE98414-4502-483C-905E-338A3022E4A4</string>
+	<string>62C09656-34AB-4393-989A-BEE06AC9612B</string>
 	<key>IDESourceControlProjectName</key>
-	<string>My Task List</string>
+	<string>CookieCrunch</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>CF766DD32C2DD3A1779FE7EB6FBDE75C8C2E3CC8</key>
 		<string>https://github.com/BaptisteLanusse/whateverCodeSwift.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>tests dev/My Task List/My Task List.xcodeproj</string>
+	<string>tests dev/CookieCrunch-Swift-Part2/CookieCrunch.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>CF766DD32C2DD3A1779FE7EB6FBDE75C8C2E3CC8</key>

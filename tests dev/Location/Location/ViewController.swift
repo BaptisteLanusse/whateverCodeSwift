@@ -41,7 +41,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             }
             
             if placemarks.count > 0 {
-                let pm = placemarks[0] as CLPlacemark
+                let pm = placemarks[0] as! CLPlacemark
                 self.displayLocationInfo(pm)
             } else {
                 println("error with data")

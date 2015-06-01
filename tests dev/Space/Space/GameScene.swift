@@ -73,7 +73,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         actionArray.addObject(SKAction.moveTo(CGPointMake(position, -alien.size.height), duration: NSTimeInterval(duration)))
         actionArray.addObject(SKAction.removeFromParent())
         
-        alien.runAction(SKAction.sequence(actionArray))
+        alien.runAction(SKAction.sequence(actionArray as [AnyObject]))
         
     }
 

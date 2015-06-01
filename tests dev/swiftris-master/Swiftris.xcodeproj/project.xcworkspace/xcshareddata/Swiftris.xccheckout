@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>BEE98414-4502-483C-905E-338A3022E4A4</string>
+	<string>C9E40EA8-C617-4716-A149-440634140220</string>
 	<key>IDESourceControlProjectName</key>
-	<string>My Task List</string>
+	<string>Swiftris</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>CF766DD32C2DD3A1779FE7EB6FBDE75C8C2E3CC8</key>
 		<string>https://github.com/BaptisteLanusse/whateverCodeSwift.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>tests dev/My Task List/My Task List.xcodeproj</string>
+	<string>tests dev/swiftris-master/Swiftris.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>CF766DD32C2DD3A1779FE7EB6FBDE75C8C2E3CC8</key>
