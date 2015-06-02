@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="02t-Pd-wJb">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--Flickr Photos View Controller-->
+        <scene sceneID="Zpm-ep-fFo">
+            <objects>
+                <collectionViewController id="ICB-QJ-O0f" customClass="FlickrPhotosViewController" customModule="FlickrSearch" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="Z0i-hj-9v9">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="8K6-0j-BUc">
+                            <size key="itemSize" width="200" height="200"/>
+                            <size key="headerReferenceSize" width="50" height="90"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FlickrCell" id="Fgb-Qq-bN9" customClass="FlickrPhotoCell" customModule="FlickrSearch" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7UA-i9-lMh">
+                                            <rect key="frame" x="5" y="5" width="190" height="190"/>
+                                        </imageView>
+                                        <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="vPh-2g-bYl">
+                                            <rect key="frame" x="82" y="81" width="37" height="37"/>
+                                        </activityIndicatorView>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <constraints>
+                                    <constraint firstItem="7UA-i9-lMh" firstAttribute="leading" secondItem="Fgb-Qq-bN9" secondAttribute="leading" constant="5" id="DUl-yt-sBr"/>
+                                    <constraint firstAttribute="trailing" secondItem="7UA-i9-lMh" secondAttribute="trailing" constant="5" id="OFn-2e-fPe"/>
+                                    <constraint firstItem="7UA-i9-lMh" firstAttribute="top" secondItem="Fgb-Qq-bN9" secondAttribute="top" constant="5" id="ZFf-6x-JoA"/>
+                                    <constraint firstAttribute="bottom" secondItem="7UA-i9-lMh" secondAttribute="bottom" constant="5" id="aCv-r2-J5B"/>
+                                    <constraint firstAttribute="centerX" secondItem="vPh-2g-bYl" secondAttribute="centerX" id="jYb-Em-wmF"/>
+                                    <constraint firstAttribute="centerY" secondItem="vPh-2g-bYl" secondAttribute="centerY" id="khg-nx-bYR"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="activityIndicator" destination="vPh-2g-bYl" id="Lww-rl-h7x"/>
+                                    <outlet property="imageView" destination="7UA-i9-lMh" id="vrE-E4-3ab"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FlickrPhotoHeaderView" id="5Ux-s7-Zzt" customClass="FlickrPhotoHeaderView" customModule="FlickrSearch" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="64" width="600" height="50"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zqO-wy-VVq">
+                                    <rect key="frame" x="262" y="25" width="77" height="39"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.90000000000000002" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="centerY" secondItem="zqO-wy-VVq" secondAttribute="centerY" id="M8Y-1Z-cm9"/>
+                                <constraint firstAttribute="centerX" secondItem="zqO-wy-VVq" secondAttribute="centerX" id="v1y-8b-UyL"/>
+                            </constraints>
+                            <connections>
+                                <outlet property="label" destination="zqO-wy-VVq" id="eR4-hQ-Pu6"/>
+                            </connections>
+                        </collectionReusableView>
+                        <connections>
+                            <outlet property="dataSource" destination="ICB-QJ-O0f" id="uv7-ri-iGf"/>
+                            <outlet property="delegate" destination="ICB-QJ-O0f" id="Vw9-bc-ogQ"/>
+                        </connections>
+                    </collectionView>
+                    <navigationItem key="navigationItem" id="MgC-76-RV1">
+                        <nil key="title"/>
+                        <textField key="titleView" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Search" minimumFontSize="17" id="6Lt-gp-CaR">
+                            <rect key="frame" x="180" y="7" width="240" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" returnKeyType="search"/>
+                            <connections>
+                                <outlet property="delegate" destination="ICB-QJ-O0f" id="CXn-qr-vWc"/>
+                            </connections>
+                        </textField>
+                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="W4j-cL-Taa">
+                            <connections>
+                                <action selector="share:" destination="ICB-QJ-O0f" id="YuF-Mo-6gC"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i1m-w2-UKX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1091" y="549"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="3hR-25-G7N">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="02t-Pd-wJb" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="4xm-Mb-SuA">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ICB-QJ-O0f" kind="relationship" relationship="rootViewController" id="5Ry-6Q-DbU"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ahm-Xk-gtp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="279" y="549"/>
+        </scene>
+    </scenes>
+</document>

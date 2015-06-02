@@ -28,6 +28,10 @@ Cette application teste les fonctionnalités de peuplement Core Data intégrées
 
 Cette application teste les différentes possibilités pour animer des transitions entre les vues via la classe customSegue.
 
+## _FlickrSearch_
+
+Cette application permet de visualiser comment faire fonctionner des requêtes sur l'API de Flickr, comment charger des images, comment utiliser la vue popover et comment se servir des collections views.
+
 ## _Flourish_
 
 Appli en developpement...
@@ -79,3 +83,5 @@ Une application pour tester les fonctionnalités de core data.
 ## _Tic Tac Toe_
 
 Un jeu de morpion se jouant avec plusieurs smartphones.
+
+# Il y a aussi quelques Playgrounds au milieu, qui permettent de tester les différentes fonctionnalités du playground fournit par XCode
