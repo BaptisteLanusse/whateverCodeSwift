@@ -32,6 +32,10 @@ Cette application teste les différentes possibilités pour animer des transitio
 
 Cette application permet de visualiser comment faire fonctionner des requêtes sur l'API de Flickr, comment charger des images, comment utiliser la vue popover et comment se servir des collections views.
 
+## _[Flo](https://github.com/BaptisteLanusse/whateverCodeSwift/tree/master/tests%20dev/Flo)_
+
+Cette application permet de tester les fonctionnalités de dessin apportées par Swift et UIKit, ainsi que plus bas dans CoreGraphics
+
 ## _[Flourish](https://github.com/BaptisteLanusse/whateverCodeSwift/tree/master/tests%20dev/Flourish)_
 
 Appli en developpement...
