@@ -4,7 +4,7 @@ Je vais ici tester et poster mes développements d'applications Swift.
 
 Le dossier contient actuellement les applications suivantes :
 
-## _Animation_
+## _[Animation](https://github.com/BaptisteLanusse/whateverCodeSwift/tree/master/tests%20dev/Animation)_
 
 Cette appli permet de visualiser comment animer une rotation et un agrandissement sur un bouton.
 
