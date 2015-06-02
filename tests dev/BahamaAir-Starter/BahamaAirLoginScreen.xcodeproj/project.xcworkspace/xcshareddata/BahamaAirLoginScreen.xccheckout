@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>7604EB55-4302-4A8B-88DE-E45066748DF8</string>
+	<string>8CF6332E-ACBF-4EE6-BB59-9D919D87437A</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Flo</string>
+	<string>BahamaAirLoginScreen</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>CF766DD32C2DD3A1779FE7EB6FBDE75C8C2E3CC8</key>
 		<string>https://github.com/BaptisteLanusse/whateverCodeSwift.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>tests dev/Flo/Flo.xcodeproj</string>
+	<string>tests dev/BahamaAir-Starter/BahamaAirLoginScreen.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>CF766DD32C2DD3A1779FE7EB6FBDE75C8C2E3CC8</key>

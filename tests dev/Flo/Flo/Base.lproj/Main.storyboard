@@ -200,7 +200,7 @@
                                 <color key="value" red="0.87450980392156863" green="1" blue="0.96862745098039216" alpha="1" colorSpace="calibratedRGB"/>
                             </userDefinedRuntimeAttribute>
                             <userDefinedRuntimeAttribute type="number" keyPath="patternSize">
-                                <real key="value" value="30"/>
+                                <real key="value" value="15"/>
                             </userDefinedRuntimeAttribute>
                         </userDefinedRuntimeAttributes>
                     </view>
