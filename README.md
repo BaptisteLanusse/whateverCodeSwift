@@ -8,6 +8,10 @@ Le dossier contient actuellement les applications suivantes :
 
 Cette appli permet de visualiser comment animer une rotation et un agrandissement sur un bouton.
 
+## _[Bahama Air Starter](https://github.com/BaptisteLanusse/whateverCodeSwift/tree/master/tests%20dev/BahamaAir-Starter)_
+
+Cette application permet de tester de petites animations sur des vues.
+
 ## _[Classic Photo Sharer](https://github.com/BaptisteLanusse/whateverCodeSwift/tree/master/tests%20dev/ClassicPhotos-Starter)_
 
 Cette appli permet de voir comment aller télécharger des informations sur un serveur en background, comment afficher le chargement, comment traiter des images pour leur appliquer un filtre et comment peupler une liste.
