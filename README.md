@@ -8,79 +8,79 @@ Le dossier contient actuellement les applications suivantes :
 
 Cette appli permet de visualiser comment animer une rotation et un agrandissement sur un bouton.
 
-## _Classic Photo Sharer_
+## _[Classic Photo Sharer](https://github.com/BaptisteLanusse/whateverCodeSwift/tree/master/tests%20dev/ClassicPhotos-Starter)_
 
 Cette appli permet de voir comment aller télécharger des informations sur un serveur en background, comment afficher le chargement, comment traiter des images pour leur appliquer un filtre et comment peupler une liste.
 
-## _Collection View Tuto_
+## _[Collection View Tuto](https://github.com/BaptisteLanusse/whateverCodeSwift/tree/master/tests%20dev/CollectionViewTuto)_
 
 Cette appli suit un tutoriel pour apprendre a utiliser les collections views.
 
-## _Cookie Crunch_
+## _[Cookie Crunch](https://github.com/BaptisteLanusse/whateverCodeSwift/tree/master/tests%20dev/CookieCrunch-Swift-Part2)_
 
 Cette application reprend le principe du jeu candy crush, afin d'apprendre à se servir des outils de jeux proposés par XCode.
 
-## _Core Data Youtube_
+## _[Core Data Youtube](https://github.com/BaptisteLanusse/whateverCodeSwift/tree/master/tests%20dev/CoreDataYoutube)_
 
 Cette application teste les fonctionnalités de peuplement Core Data intégrées à XCode en suivant un tutoriel trouvé sur Youtube.
 
-## _Custom Segues_
+## _[Custom Segues](https://github.com/BaptisteLanusse/whateverCodeSwift/tree/master/tests%20dev/CustomSegues)_
 
 Cette application teste les différentes possibilités pour animer des transitions entre les vues via la classe customSegue.
 
-## _FlickrSearch_
+## _[FlickrSearch](https://github.com/BaptisteLanusse/whateverCodeSwift/tree/master/tests%20dev/FlickrSearch)_
 
 Cette application permet de visualiser comment faire fonctionner des requêtes sur l'API de Flickr, comment charger des images, comment utiliser la vue popover et comment se servir des collections views.
 
-## _Flourish_
+## _[Flourish](https://github.com/BaptisteLanusse/whateverCodeSwift/tree/master/tests%20dev/Flourish)_
 
 Appli en developpement...
 
-## _Gesture Recog_
+## _[Gesture Recog](https://github.com/BaptisteLanusse/whateverCodeSwift/tree/master/tests%20dev/GestureRecog)_
 
 Cette appli permet de tester les interactions avec des éléments affiché à l'écran.
 
-## _Image View Animation_
+## _[Image View Animation](https://github.com/BaptisteLanusse/whateverCodeSwift/tree/master/tests%20dev/ImageViewAnimation)_
 
 Cette appli permet de tester les animations possibles via une liste d'image passées à une image view.
 
-## _Location_
+## _[Location](https://github.com/BaptisteLanusse/whateverCodeSwift/tree/master/tests%20dev/Location)_
 
 Cette appli donne la possibilité de récupérer les informations de géolocalisation de l'appareil pour les afficher dans la console.
 
-## _My Task List_
+## _[My Task List](https://github.com/BaptisteLanusse/whateverCodeSwift/tree/master/tests%20dev/My%20Task%20List)_
 
 Une liste de tâches sans sauvegarde.
 
-## _Read Write Plist Tutorial_
+## _[Read Write Plist Tutorial](https://github.com/BaptisteLanusse/whateverCodeSwift/tree/master/tests%20dev/ReadWritePlistTutorial)_
 
 Permet de voir comment lire et écrire dans une plist depuis une application.
 
-## _Space_
+## _[Space](https://github.com/BaptisteLanusse/whateverCodeSwift/tree/master/tests%20dev/Space)_
 
 Appli en développement...
 
-## _Space Game Tutorial Files_
+## _[Space Game Tutorial Files](https://github.com/BaptisteLanusse/whateverCodeSwift/tree/master/tests%20dev/SpaceGameTutorialFiles)_
 
 Cette appli a connu des problèmes au changement de version.
 
-## _Sprite Kit Simple Game_
+## _[Sprite Kit Simple Game](https://github.com/BaptisteLanusse/whateverCodeSwift/tree/master/tests%20dev/SpriteKitSimpleGame)_
 
 Cette appli a connu des problèmes au changement de version.
 
-## _Swiftris_
+## _[Swiftris](https://github.com/BaptisteLanusse/whateverCodeSwift/tree/master/tests%20dev/Swiftris)_
 
 Cette appli a des dépendences qui ne sont plus reconnues.
 
-## _Swiftris-master_
+## _[Swiftris-master](https://github.com/BaptisteLanusse/whateverCodeSwift/tree/master/tests%20dev/swiftris-master)_
 
 Version de Swiftris corrigée.
 
-## _Test Core Data_
+## _[Test Core Data](https://github.com/BaptisteLanusse/whateverCodeSwift/tree/master/tests%20dev/testCoreData)_
 
 Une application pour tester les fonctionnalités de core data.
 
-## _Tic Tac Toe_
+## _[Tic Tac Toe](https://github.com/BaptisteLanusse/whateverCodeSwift/tree/master/tests%20dev/Tic%20Tac%20Toe)_
 
 Un jeu de morpion se jouant avec plusieurs smartphones.
 
