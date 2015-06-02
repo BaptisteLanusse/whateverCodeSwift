@@ -37,17 +37,19 @@ let π:CGFloat = CGFloat(M_PI)
         
         let outlineEndAngle = arcLengthPerGlass * CGFloat(counter) + startAngle
         
-        var outlinePath = UIBezierPath(arcCenter: center, radius: bounds.width/2 - 2.5, startAngle: startAngle, endAngle: outlineEndAngle, clockwise: true)
+        if counter != 0 {
+            var outlinePath = UIBezierPath(arcCenter: center, radius: bounds.width/2 - 2.5, startAngle: startAngle, endAngle: outlineEndAngle, clockwise: true)
         
-        outlinePath.addArcWithCenter(center, radius: bounds.width/2 - arcWidth + 2.5, startAngle: outlineEndAngle, endAngle: startAngle, clockwise: false)
+            outlinePath.addArcWithCenter(center, radius: bounds.width/2 - arcWidth + 2.5, startAngle: outlineEndAngle, endAngle: startAngle, clockwise: false)
         
-        outlinePath.closePath()
+            outlinePath.closePath()
         
-        outlineColor.setStroke()
+            outlineColor.setStroke()
         
-        outlinePath.lineWidth = 5.0
+            outlinePath.lineWidth = 5.0
         
-        outlinePath.stroke()
+            outlinePath.stroke()
+        }
         
         let context = UIGraphicsGetCurrentContext()
         
@@ -61,7 +63,7 @@ let π:CGFloat = CGFloat(M_PI)
         
         CGContextTranslateCTM(context, rect.width/2, rect.height/2)
         
-        for i in 1...NoOfGlasses {
+        for i in 0...NoOfGlasses {
             CGContextSaveGState(context)
             
             var angle = arcLengthPerGlass * CGFloat(i) + startAngle - π/2
