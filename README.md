@@ -44,6 +44,10 @@ Cette application permet de tester les fonctionnalités de dessin apportées par
 
 Appli en developpement...
 
+## _[Geotify](https://github.com/BaptisteLanusse/whateverCodeSwift/tree/master/tests%20dev/Geotify-Starter)_
+
+Cette appli teste les systèmes de géolocalisation, et permet d'envoyer des notifications.
+
 ## _[Gesture Recog](https://github.com/BaptisteLanusse/whateverCodeSwift/tree/master/tests%20dev/GestureRecog)_
 
 Cette appli permet de tester les interactions avec des éléments affiché à l'écran.
