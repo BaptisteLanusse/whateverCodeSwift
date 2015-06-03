@@ -68,6 +68,10 @@ Cette appli donne la possibilité de récupérer les informations de géolocalis
 
 Une liste de tâches sans sauvegarde.
 
+## _[Photomania](https://github.com/BaptisteLanusse/whateverCodeSwift/tree/master/tests%20dev/Photomania_Starter)_
+
+Cette appli permet de voir comment fonctionne la connection réseau via des requêtes http grâce a alamofire, elle permet aussi de voir les téléchargements dans une appli et la mise en cache.
+
 ## _[Pv Starter Project](https://github.com/BaptisteLanusse/whateverCodeSwift/tree/master/tests%20dev/pv-starter-project-swift-updated)_
 
 Cette appli a pour but de tracer des éléments sur une carte.
