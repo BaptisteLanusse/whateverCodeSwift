@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>20D514A4-4D26-4F1F-B86D-146D65EED06E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Photomania</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CF766DD32C2DD3A1779FE7EB6FBDE75C8C2E3CC8</key>
+		<string>https://github.com/BaptisteLanusse/whateverCodeSwift.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>tests dev/Photomania_Starter/Photomania.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CF766DD32C2DD3A1779FE7EB6FBDE75C8C2E3CC8</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/BaptisteLanusse/whateverCodeSwift.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CF766DD32C2DD3A1779FE7EB6FBDE75C8C2E3CC8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CF766DD32C2DD3A1779FE7EB6FBDE75C8C2E3CC8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>whateverCodeSwift</string>
+		</dict>
+	</array>
+</dict>
+</plist>
