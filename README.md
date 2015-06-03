@@ -48,6 +48,10 @@ Appli en developpement...
 
 Cette appli permet de tester les interactions avec des éléments affiché à l'écran.
 
+## _[Honolulu Art](https://github.com/BaptisteLanusse/whateverCodeSwift/tree/master/tests%20dev/HonoluluArt)_
+
+Le but de cette appli est de tester les fonctionnalités de localisation et d'affichage de cartes.
+
 ## _[Image View Animation](https://github.com/BaptisteLanusse/whateverCodeSwift/tree/master/tests%20dev/ImageViewAnimation)_
 
 Cette appli permet de tester les animations possibles via une liste d'image passées à une image view.
