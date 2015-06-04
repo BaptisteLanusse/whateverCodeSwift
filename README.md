@@ -56,6 +56,10 @@ Cette appli permet de tester les interactions avec des éléments affiché à l'
 
 Le but de cette appli est de tester les fonctionnalités de localisation et d'affichage de cartes.
 
+## _[Image Loader](https://github.com/BaptisteLanusse/whateverCodeSwift/tree/master/tests%20dev/ImageLoaderIndicator-Starter)_
+
+Test d'affichage d'une image de chargement le temps du téléchargement d'une image puis afichage de celle-ci.
+
 ## _[Image View Animation](https://github.com/BaptisteLanusse/whateverCodeSwift/tree/master/tests%20dev/ImageViewAnimation)_
 
 Cette appli permet de tester les animations possibles via une liste d'image passées à une image view.
