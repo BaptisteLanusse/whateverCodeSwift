@@ -12,6 +12,14 @@ Cette appli permet de visualiser comment animer une rotation et un agrandissemen
 
 Cette application permet de tester de petites animations sur des vues.
 
+## _[CALayer Playground](https://github.com/BaptisteLanusse/whateverCodeSwift/tree/master/tests%20dev/CALayerPlayground)_
+
+Visualiser la création d'images via le layer.
+
+## _[Circle Transition](https://github.com/BaptisteLanusse/whateverCodeSwift/tree/master/tests%20dev/CircleTransition)_
+
+transition circulaire.
+
 ## _[Classic Photo Sharer](https://github.com/BaptisteLanusse/whateverCodeSwift/tree/master/tests%20dev/ClassicPhotos-Starter)_
 
 Cette appli permet de voir comment aller télécharger des informations sur un serveur en background, comment afficher le chargement, comment traiter des images pour leur appliquer un filtre et comment peupler une liste.
