@@ -80,6 +80,10 @@ Cette appli a pour but de tracer des éléments sur une carte.
 
 Permet de voir comment lire et écrire dans une plist depuis une application.
 
+## _[Selfie](https://github.com/BaptisteLanusse/whateverCodeSwift/tree/master/tests%20dev/Selfie-Starter)_
+
+Cette appli prend des selfies et va les poster sur le site amazon pour les enregistrer, il permet l'autentification via une appli ruby on rails hébergée sur heroku et chaque utilisateur renseigné peut enregistrer ses selfies.
+
 ## _[Space](https://github.com/BaptisteLanusse/whateverCodeSwift/tree/master/tests%20dev/Space)_
 
 Appli en développement...
