@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--Coins-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller title="Coins" id="AgC-eL-Hgc" customClass="CoinsInterfaceController" customModule="CoinTracker_WatchKit_Extension">
+                    <items>
+                        <table alignment="left" id="L9w-Tm-jop">
+                            <items>
+                                <tableRow identifier="CoinRow" id="rOx-a9-x9k" customClass="CoinRow" customModule="CoinTracker_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" id="Dvt-iw-8eW">
+                                        <items>
+                                            <label alignment="left" text="Coin name" id="Nk8-aT-Ri6">
+                                                <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                                            </label>
+                                            <label alignment="left" text="Price" id="0I8-fV-7rk"/>
+                                        </items>
+                                        <connections>
+                                            <segue destination="zjs-z3-IkC" kind="push" identifier="CoinDetails" id="mqg-af-13v"/>
+                                        </connections>
+                                    </group>
+                                    <connections>
+                                        <outlet property="detailLabel" destination="0I8-fV-7rk" id="LG0-1c-HWr"/>
+                                        <outlet property="titleLabel" destination="Nk8-aT-Ri6" id="uKx-BN-DAK"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="coinTable" destination="L9w-Tm-jop" id="LKd-31-bbo"/>
+                    </connections>
+                </controller>
+            </objects>
+        </scene>
+        <!--Glance Interface Controller-->
+        <scene sceneID="HeR-Qu-JRK">
+            <objects>
+                <glanceController id="BoE-tQ-WX7" customClass="CoinGlanceInterfaceController" customModule="CoinTracker_WatchKit_Extension">
+                    <items>
+                        <group alignment="left" id="Eah-oY-fFq">
+                            <items>
+                                <imageView width="40" height="40" alignment="left" verticalAlignment="center" id="87n-qn-Nhe"/>
+                                <label alignment="left" verticalAlignment="center" text="Coin" id="5W7-4c-YuE">
+                                    <fontDescription key="font" type="boldSystem" pointSize="34"/>
+                                </label>
+                            </items>
+                        </group>
+                        <group alignment="left" id="a3a-nD-FFE">
+                            <items>
+                                <group alignment="center" verticalAlignment="center" layout="vertical" id="qH9-pe-u7j">
+                                    <items>
+                                        <label alignment="center" text="0.00" id="itN-LT-K7Z">
+                                            <fontDescription key="font" type="boldSystem" pointSize="38"/>
+                                        </label>
+                                        <label alignment="right" verticalAlignment="bottom" text="USD" id="kX6-1H-YNK"/>
+                                    </items>
+                                </group>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="coinImage" destination="87n-qn-Nhe" id="Mpd-eV-sJ8"/>
+                        <outlet property="nameLabel" destination="5W7-4c-YuE" id="rUm-jW-mEj"/>
+                        <outlet property="priceLabel" destination="itN-LT-K7Z" id="26f-XV-pdy"/>
+                    </connections>
+                </glanceController>
+            </objects>
+            <point key="canvasLocation" x="655" y="223"/>
+        </scene>
+        <!--Coin Detail Interface Controller-->
+        <scene sceneID="a3B-nw-lh1">
+            <objects>
+                <controller id="zjs-z3-IkC" customClass="CoinDetailInterfaceController" customModule="CoinTracker_WatchKit_Extension">
+                    <items>
+                        <group width="1" alignment="left" id="ucu-0I-iSh">
+                            <items>
+                                <imageView width="40" height="40" alignment="left" verticalAlignment="center" id="Swo-IK-Pab"/>
+                                <label alignment="right" verticalAlignment="center" text="Coin" id="gFT-m7-DUl">
+                                    <fontDescription key="font" type="boldSystem" pointSize="34"/>
+                                </label>
+                            </items>
+                            <edgeInsets key="margins" left="2" right="2" top="2" bottom="2"/>
+                        </group>
+                        <table alignment="left" id="f0N-gh-1JE">
+                            <items>
+                                <tableRow identifier="CoinRow" id="hrB-Uj-k6N" customClass="CoinRow" customModule="CoinTracker_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" id="lqh-gu-gj6">
+                                        <items>
+                                            <label alignment="right" text="Title" id="oBg-jK-QaW">
+                                                <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                                            </label>
+                                            <label alignment="right" text="Detail" id="f0O-32-rgp"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="detailLabel" destination="f0O-32-rgp" id="XQp-9O-jnK"/>
+                                        <outlet property="titleLabel" destination="oBg-jK-QaW" id="aMV-3h-sf8"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                        <switch width="1" alignment="left" title="Favorite" id="fbL-Dl-C8i">
+                            <fontDescription key="font" style="UICTFontTextStyleCaption2"/>
+                            <connections>
+                                <action selector="favoriteSwitchValueChanged:" destination="zjs-z3-IkC" id="m8q-gG-GdO"/>
+                            </connections>
+                        </switch>
+                    </items>
+                    <connections>
+                        <outlet property="coinImage" destination="Swo-IK-Pab" id="fdu-C3-9rM"/>
+                        <outlet property="favoriteSwitch" destination="fbL-Dl-C8i" id="o5D-9I-Dwr"/>
+                        <outlet property="nameLabel" destination="gFT-m7-DUl" id="Olq-9a-LGx"/>
+                        <outlet property="table" destination="f0N-gh-1JE" id="Xve-5v-aAD"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="693" y="558"/>
+        </scene>
+    </scenes>
+</document>

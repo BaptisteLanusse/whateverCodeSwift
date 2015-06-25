@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96981BF41B3C2543006BCD16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96981BF31B3C2543006BCD16 /* AppDelegate.swift */; };
+		96981BF61B3C2543006BCD16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96981BF51B3C2543006BCD16 /* ViewController.swift */; };
+		96981BF91B3C2543006BCD16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96981BF71B3C2543006BCD16 /* Main.storyboard */; };
+		96981BFB1B3C2543006BCD16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96981BFA1B3C2543006BCD16 /* Assets.xcassets */; };
+		96981BFE1B3C2543006BCD16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96981BFC1B3C2543006BCD16 /* LaunchScreen.storyboard */; };
+		96981C091B3C2543006BCD16 /* phpNotificationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96981C081B3C2543006BCD16 /* phpNotificationTests.swift */; };
+		96981C141B3C2543006BCD16 /* phpNotificationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96981C131B3C2543006BCD16 /* phpNotificationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96981C051B3C2543006BCD16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96981BE81B3C2543006BCD16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96981BEF1B3C2543006BCD16;
+			remoteInfo = phpNotification;
+		};
+		96981C101B3C2543006BCD16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96981BE81B3C2543006BCD16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96981BEF1B3C2543006BCD16;
+			remoteInfo = phpNotification;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		96981BF01B3C2543006BCD16 /* phpNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = phpNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96981BF31B3C2543006BCD16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		96981BF51B3C2543006BCD16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		96981BF81B3C2543006BCD16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96981BFA1B3C2543006BCD16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96981BFD1B3C2543006BCD16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		96981BFF1B3C2543006BCD16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96981C041B3C2543006BCD16 /* phpNotificationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = phpNotificationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96981C081B3C2543006BCD16 /* phpNotificationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = phpNotificationTests.swift; sourceTree = "<group>"; };
+		96981C0A1B3C2543006BCD16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96981C0F1B3C2543006BCD16 /* phpNotificationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = phpNotificationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96981C131B3C2543006BCD16 /* phpNotificationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = phpNotificationUITests.swift; sourceTree = "<group>"; };
+		96981C151B3C2543006BCD16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96981BED1B3C2543006BCD16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96981C011B3C2543006BCD16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96981C0C1B3C2543006BCD16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96981BE71B3C2543006BCD16 = {
+			isa = PBXGroup;
+			children = (
+				96981BF21B3C2543006BCD16 /* phpNotification */,
+				96981C071B3C2543006BCD16 /* phpNotificationTests */,
+				96981C121B3C2543006BCD16 /* phpNotificationUITests */,
+				96981BF11B3C2543006BCD16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96981BF11B3C2543006BCD16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96981BF01B3C2543006BCD16 /* phpNotification.app */,
+				96981C041B3C2543006BCD16 /* phpNotificationTests.xctest */,
+				96981C0F1B3C2543006BCD16 /* phpNotificationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96981BF21B3C2543006BCD16 /* phpNotification */ = {
+			isa = PBXGroup;
+			children = (
+				96981BF31B3C2543006BCD16 /* AppDelegate.swift */,
+				96981BF51B3C2543006BCD16 /* ViewController.swift */,
+				96981BF71B3C2543006BCD16 /* Main.storyboard */,
+				96981BFA1B3C2543006BCD16 /* Assets.xcassets */,
+				96981BFC1B3C2543006BCD16 /* LaunchScreen.storyboard */,
+				96981BFF1B3C2543006BCD16 /* Info.plist */,
+			);
+			path = phpNotification;
+			sourceTree = "<group>";
+		};
+		96981C071B3C2543006BCD16 /* phpNotificationTests */ = {
+			isa = PBXGroup;
+			children = (
+				96981C081B3C2543006BCD16 /* phpNotificationTests.swift */,
+				96981C0A1B3C2543006BCD16 /* Info.plist */,
+			);
+			path = phpNotificationTests;
+			sourceTree = "<group>";
+		};
+		96981C121B3C2543006BCD16 /* phpNotificationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				96981C131B3C2543006BCD16 /* phpNotificationUITests.swift */,
+				96981C151B3C2543006BCD16 /* Info.plist */,
+			);
+			path = phpNotificationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96981BEF1B3C2543006BCD16 /* phpNotification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96981C181B3C2543006BCD16 /* Build configuration list for PBXNativeTarget "phpNotification" */;
+			buildPhases = (
+				96981BEC1B3C2543006BCD16 /* Sources */,
+				96981BED1B3C2543006BCD16 /* Frameworks */,
+				96981BEE1B3C2543006BCD16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = phpNotification;
+			productName = phpNotification;
+			productReference = 96981BF01B3C2543006BCD16 /* phpNotification.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96981C031B3C2543006BCD16 /* phpNotificationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96981C1B1B3C2543006BCD16 /* Build configuration list for PBXNativeTarget "phpNotificationTests" */;
+			buildPhases = (
+				96981C001B3C2543006BCD16 /* Sources */,
+				96981C011B3C2543006BCD16 /* Frameworks */,
+				96981C021B3C2543006BCD16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96981C061B3C2543006BCD16 /* PBXTargetDependency */,
+			);
+			name = phpNotificationTests;
+			productName = phpNotificationTests;
+			productReference = 96981C041B3C2543006BCD16 /* phpNotificationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		96981C0E1B3C2543006BCD16 /* phpNotificationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96981C1E1B3C2543006BCD16 /* Build configuration list for PBXNativeTarget "phpNotificationUITests" */;
+			buildPhases = (
+				96981C0B1B3C2543006BCD16 /* Sources */,
+				96981C0C1B3C2543006BCD16 /* Frameworks */,
+				96981C0D1B3C2543006BCD16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96981C111B3C2543006BCD16 /* PBXTargetDependency */,
+			);
+			name = phpNotificationUITests;
+			productName = phpNotificationUITests;
+			productReference = 96981C0F1B3C2543006BCD16 /* phpNotificationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96981BE81B3C2543006BCD16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Lanusse Baptiste";
+				TargetAttributes = {
+					96981BEF1B3C2543006BCD16 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					96981C031B3C2543006BCD16 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 96981BEF1B3C2543006BCD16;
+					};
+					96981C0E1B3C2543006BCD16 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 96981BEF1B3C2543006BCD16;
+					};
+				};
+			};
+			buildConfigurationList = 96981BEB1B3C2543006BCD16 /* Build configuration list for PBXProject "phpNotification" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96981BE71B3C2543006BCD16;
+			productRefGroup = 96981BF11B3C2543006BCD16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96981BEF1B3C2543006BCD16 /* phpNotification */,
+				96981C031B3C2543006BCD16 /* phpNotificationTests */,
+				96981C0E1B3C2543006BCD16 /* phpNotificationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96981BEE1B3C2543006BCD16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96981BFE1B3C2543006BCD16 /* LaunchScreen.storyboard in Resources */,
+				96981BFB1B3C2543006BCD16 /* Assets.xcassets in Resources */,
+				96981BF91B3C2543006BCD16 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96981C021B3C2543006BCD16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96981C0D1B3C2543006BCD16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96981BEC1B3C2543006BCD16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96981BF61B3C2543006BCD16 /* ViewController.swift in Sources */,
+				96981BF41B3C2543006BCD16 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96981C001B3C2543006BCD16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96981C091B3C2543006BCD16 /* phpNotificationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96981C0B1B3C2543006BCD16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96981C141B3C2543006BCD16 /* phpNotificationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96981C061B3C2543006BCD16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96981BEF1B3C2543006BCD16 /* phpNotification */;
+			targetProxy = 96981C051B3C2543006BCD16 /* PBXContainerItemProxy */;
+		};
+		96981C111B3C2543006BCD16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96981BEF1B3C2543006BCD16 /* phpNotification */;
+			targetProxy = 96981C101B3C2543006BCD16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		96981BF71B3C2543006BCD16 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96981BF81B3C2543006BCD16 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		96981BFC1B3C2543006BCD16 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96981BFD1B3C2543006BCD16 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96981C161B3C2543006BCD16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96981C171B3C2543006BCD16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96981C191B3C2543006BCD16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = phpNotification/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BPACA.phpNotification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		96981C1A1B3C2543006BCD16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = phpNotification/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BPACA.phpNotification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		96981C1C1B3C2543006BCD16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = phpNotificationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BPACA.phpNotificationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/phpNotification.app/phpNotification";
+			};
+			name = Debug;
+		};
+		96981C1D1B3C2543006BCD16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = phpNotificationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BPACA.phpNotificationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/phpNotification.app/phpNotification";
+			};
+			name = Release;
+		};
+		96981C1F1B3C2543006BCD16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = phpNotificationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BPACA.phpNotificationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = phpNotification;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		96981C201B3C2543006BCD16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = phpNotificationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BPACA.phpNotificationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = phpNotification;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96981BEB1B3C2543006BCD16 /* Build configuration list for PBXProject "phpNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96981C161B3C2543006BCD16 /* Debug */,
+				96981C171B3C2543006BCD16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96981C181B3C2543006BCD16 /* Build configuration list for PBXNativeTarget "phpNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96981C191B3C2543006BCD16 /* Debug */,
+				96981C1A1B3C2543006BCD16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		96981C1B1B3C2543006BCD16 /* Build configuration list for PBXNativeTarget "phpNotificationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96981C1C1B3C2543006BCD16 /* Debug */,
+				96981C1D1B3C2543006BCD16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		96981C1E1B3C2543006BCD16 /* Build configuration list for PBXNativeTarget "phpNotificationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96981C1F1B3C2543006BCD16 /* Debug */,
+				96981C201B3C2543006BCD16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96981BE81B3C2543006BCD16 /* Project object */;
+}
