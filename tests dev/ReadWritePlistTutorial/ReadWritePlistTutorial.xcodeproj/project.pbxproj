@@ -159,6 +159,7 @@
 		96DFA1011AE0F4B90056DF65 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Lanusse Baptiste";
 				TargetAttributes = {
@@ -413,6 +414,7 @@
 				96DFA12A1AE0F4B90056DF65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96DFA12B1AE0F4B90056DF65 /* Build configuration list for PBXNativeTarget "ReadWritePlistTutorialTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +423,7 @@
 				96DFA12D1AE0F4B90056DF65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -13,12 +13,12 @@ class CustomImageView: UIImageView {
   
   let progressIndicatorView = CircularLoaderView(frame: CGRectZero)
   
-  required init(coder aDecoder: NSCoder) {
+  required init?(coder aDecoder: NSCoder) {
     super.init(coder: aDecoder)
     
     addSubview(self.progressIndicatorView)
     progressIndicatorView.frame = bounds
-    progressIndicatorView.autoresizingMask = .FlexibleWidth | .FlexibleHeight
+    //progressIndicatorView.autoresizingMask = .FlexibleWidth | .FlexibleHeight
     
     let url = NSURL(string: "http://www.raywenderlich.com/wp-content/uploads/2015/02/mac-glasses.jpeg")
     sd_setImageWithURL(url, placeholderImage: nil, options: .CacheMemoryOnly, progress: {

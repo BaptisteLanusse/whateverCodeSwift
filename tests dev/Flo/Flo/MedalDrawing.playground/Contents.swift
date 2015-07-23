@@ -36,7 +36,7 @@ CGContextSaveGState(context)
 medallionPath.addClip()
 let gradient = CGGradientCreateWithColors(CGColorSpaceCreateDeviceRGB(), [darkGoldColor.CGColor, midGoldColor.CGColor, lightGoldColor.CGColor], [0, 0.51, 1])
 
-CGContextDrawLinearGradient(context, gradient, CGPointMake(40, 40), CGPointMake(100, 160), 0)
+CGContextDrawLinearGradient(context, gradient, CGPointMake(40, 40), CGPointMake(100, 160), CGGradientDrawingOptions())
 
 CGContextRestoreGState(context)
 

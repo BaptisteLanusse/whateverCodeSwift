@@ -55,7 +55,7 @@ class MapOptionsViewController: UIViewController, UITableViewDelegate, UITableVi
       cell.textLabel!.text = "Route"
     }
     
-    if contains(selectedOptions, mapOptionsType!) {
+    if selectedOptions.contains(mapOptionsType!) {
       cell.accessoryType = UITableViewCellAccessoryType.Checkmark
     } else {
       cell.accessoryType = UITableViewCellAccessoryType.None

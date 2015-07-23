@@ -159,6 +159,8 @@
 		96582D481ACC1346003EA301 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = "Lanusse Baptiste";
 				TargetAttributes = {
@@ -411,6 +413,7 @@
 				96582D741ACC1346003EA301 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96582D751ACC1346003EA301 /* Build configuration list for PBXNativeTarget "testCoreDataTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +422,7 @@
 				96582D771ACC1346003EA301 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

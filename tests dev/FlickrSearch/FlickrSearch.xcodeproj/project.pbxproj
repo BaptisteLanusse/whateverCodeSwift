@@ -165,6 +165,7 @@
 		9695C2AC1B1D9124000089ED /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Lanusse Baptiste";
 				TargetAttributes = {
@@ -423,6 +424,7 @@
 				9695C2D51B1D9124000089ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9695C2D61B1D9124000089ED /* Build configuration list for PBXNativeTarget "FlickrSearchTests" */ = {
 			isa = XCConfigurationList;
@@ -431,6 +433,7 @@
 				9695C2D81B1D9124000089ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

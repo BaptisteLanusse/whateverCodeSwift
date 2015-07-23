@@ -15,10 +15,14 @@ class ViewController: UIViewController {
         newUser.setValue(txtUsername.text, forKey: "username")
         newUser.setValue(txtPassword.text, forKey: "password")
         
-        context.save(nil)
+        do {
+            try context.save()
+        } catch {
+            print(error)
+        }
         
-        println(newUser)
-        println("Object Saved.")
+        print(newUser)
+        print("Object Saved.")
     }
     
     @IBAction func btnLoad(){
@@ -27,15 +31,21 @@ class ViewController: UIViewController {
 
         var request = NSFetchRequest(entityName: "Users")
         request.returnsObjectsAsFaults = false
-        request.predicate = NSPredicate(format: "username = %@", txtUsername.text)
+        request.predicate = NSPredicate(format: "username = %@", txtUsername.text!)
         
-        var results:NSArray = context.executeFetchRequest(request, error: nil)!
+        var results:NSArray
+        
+        do {
+            results = try context.executeFetchRequest(request)
+        } catch {
+            print(error)
+        }
         
         if(results.count > 0){
             var res = results[0] as! NSManagedObject
-            txtPassword.text = res.valueForKey("password") as! String
+            txtPassword.text = res.valueForKey("password") as? String
         }else{
-            println("0 Results returned... potential Error")
+            print("0 Results returned... potential Error")
         }
     }
     

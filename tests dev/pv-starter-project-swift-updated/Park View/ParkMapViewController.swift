@@ -95,7 +95,7 @@ class ParkMapViewController: UIViewController {
             let point = CGPointFromString(attraction["location"] as! String)
             let coordinate = CLLocationCoordinate2DMake(CLLocationDegrees(point.x), CLLocationDegrees(point.y))
             let title = attraction["name"] as! String
-            let typeRawValue = (attraction["type"] as! String).toInt()!
+            let typeRawValue = Int((attraction["type"] as! String))!
             let type = AttractionType(rawValue: typeRawValue)!
             let subtitle = attraction["subtitle"] as! String
             let annotation = AttractionAnnotation(coordinate: coordinate, title: title, subtitle: subtitle, type: type)
@@ -158,7 +158,7 @@ class ParkMapViewController: UIViewController {
 }
 
 extension ParkMapViewController : MKMapViewDelegate {
-    func mapView(mapView: MKMapView!, rendererForOverlay overlay: MKOverlay!) -> MKOverlayRenderer! {
+    func mapView(mapView: MKMapView, rendererForOverlay overlay: MKOverlay) -> MKOverlayRenderer! {
         if overlay is ParkMapOverlay {
             let magicMountainImage = UIImage(named: "overlay_park")
             let overlayView = ParkMapOverlayView(overlay: overlay, overlayImage: magicMountainImage!)
@@ -184,7 +184,7 @@ extension ParkMapViewController : MKMapViewDelegate {
         return nil
     }
     
-    func mapView(mapView: MKMapView!, viewForAnnotation annotation: MKAnnotation!) -> MKAnnotationView! {
+    func mapView(mapView: MKMapView, viewForAnnotation annotation: MKAnnotation) -> MKAnnotationView! {
         let annotationView = AttractionAnnotationView(annotation: annotation, reuseIdentifier: "Attraction")
         annotationView.canShowCallout = true
         return annotationView

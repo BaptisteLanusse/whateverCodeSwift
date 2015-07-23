@@ -58,7 +58,7 @@ class SearchResultsViewController: UIViewController, UITableViewDataSource, UITa
             let imgURL: NSURL = NSURL(string: urlString as String)!
             
             let request: NSURLRequest = NSURLRequest(URL: imgURL)
-            NSURLConnection.sendAsynchronousRequest(request, queue: NSOperationQueue.mainQueue(), completionHandler: { (response: NSURLResponse!, data: NSData!, error: NSError!) -> Void in
+            NSURLConnection.sendAsynchronousRequest(request, queue: NSOperationQueue.mainQueue(), completionHandler: { (response: NSURLResponse?, data: NSData?, error: NSError?) -> Void in
                 if error == nil {
                     image = UIImage(data: data)
                     
@@ -69,7 +69,7 @@ class SearchResultsViewController: UIViewController, UITableViewDataSource, UITa
                 }
                 else
                 {
-                    println("Error : \(error.localizedDescription)")
+                    print("Error : \(error.localizedDescription)")
                 }
             })
         }
@@ -87,7 +87,7 @@ class SearchResultsViewController: UIViewController, UITableViewDataSource, UITa
     }
     
     func didReceiveAPIResults(results: NSDictionary) {
-        var resultsArr: NSArray = results["results"] as! NSArray
+        let resultsArr: NSArray = results["results"] as! NSArray
         
         dispatch_async(dispatch_get_main_queue(), {
             self.tableData = resultsArr
@@ -97,12 +97,12 @@ class SearchResultsViewController: UIViewController, UITableViewDataSource, UITa
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        var rowData: NSDictionary = self.tableData[indexPath.row] as! NSDictionary
+        let rowData: NSDictionary = self.tableData[indexPath.row] as! NSDictionary
         
-        var name: String = rowData["trackName"] as! String
-        var formattedPrice: String = rowData["formattedPrice"] as! String
+        let name: String = rowData["trackName"] as! String
+        let formattedPrice: String = rowData["formattedPrice"] as! String
         
-        var alert: UIAlertView = UIAlertView()
+        let alert: UIAlertView = UIAlertView()
         alert.title = name
         alert.message = formattedPrice
         alert.addButtonWithTitle("Ok")

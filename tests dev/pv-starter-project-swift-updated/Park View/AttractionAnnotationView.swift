@@ -2,7 +2,7 @@ import UIKit
 import MapKit
 
 class AttractionAnnotationView: MKAnnotationView {
-    required init(coder aDecoder: NSCoder) {
+    required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
     
@@ -10,7 +10,7 @@ class AttractionAnnotationView: MKAnnotationView {
         super.init(frame: frame)
     }
     
-    override init!(annotation: MKAnnotation!, reuseIdentifier: String!) {
+    override init(annotation: MKAnnotation?, reuseIdentifier: String?) {
         super.init(annotation: annotation, reuseIdentifier: reuseIdentifier)
         let attractionAnnotation = self.annotation as! AttractionAnnotation
         switch (attractionAnnotation.type) {

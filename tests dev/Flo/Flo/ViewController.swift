@@ -60,36 +60,34 @@ class ViewController: UIViewController {
     
     @IBAction func counterViewTap(gesture :UITapGestureRecognizer?) {
         if (isGraphViewShowing) {
-            UIView.transitionFromView(graphView, toView: counterView, duration: 1.0, options: UIViewAnimationOptions.TransitionFlipFromRight | UIViewAnimationOptions.ShowHideTransitionViews, completion: nil)
+            UIView.transitionFromView(graphView, toView: counterView, duration: 1.0, options: [UIViewAnimationOptions.TransitionFlipFromRight, UIViewAnimationOptions.ShowHideTransitionViews], completion: nil)
         } else {
-            UIView.transitionFromView(counterView, toView: graphView, duration: 1.0, options: UIViewAnimationOptions.TransitionFlipFromRight | UIViewAnimationOptions.ShowHideTransitionViews, completion: nil)
+            UIView.transitionFromView(counterView, toView: graphView, duration: 1.0, options: [UIViewAnimationOptions.TransitionFlipFromRight, UIViewAnimationOptions.ShowHideTransitionViews], completion: nil)
             setupGraphDisplay()
         }
         isGraphViewShowing = !isGraphViewShowing
     }
     
     func setupGraphDisplay() {
-        let noOfDays:Int = 7
         
         graphView.graphPoints[graphView.graphPoints.count - 1] = counterView.counter
         
         graphView.setNeedsDisplay()
         
-        maxLabel.text = "\(maxElement(graphView.graphPoints))"
+        maxLabel.text = "\(graphView.graphPoints.maxElement()!)"
         
         let average = graphView.graphPoints.reduce(0, combine: +) / graphView.graphPoints.count
         
         averageWaterDrunk.text = "\(average)"
         
-        let dateFormatter = NSDateFormatter()
         let calendar = NSCalendar.currentCalendar()
-        let componentOptions:NSCalendarUnit = .CalendarUnitWeekday
+        let componentOptions:NSCalendarUnit = .Weekday
         let components = calendar.components(componentOptions, fromDate: NSDate())
         var weekday = components.weekday
         
         let days = ["S", "S", "M", "T", "W", "T", "F"]
         
-        for i in reverse(1...days.count) {
+        for i in Array((1...days.count).reverse()) {
             if let labelView = graphView.viewWithTag(i) as? UILabel {
                 if weekday == 7 {
                     weekday = 0

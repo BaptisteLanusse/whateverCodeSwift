@@ -15,14 +15,14 @@ class PushButtonView: UIButton {
     }
     
     override func drawRect(rect: CGRect) {
-        var path = UIBezierPath(ovalInRect: rect)
+        let path = UIBezierPath(ovalInRect: rect)
         fillColor.setFill()
         path.fill()
         
         let plusHeight: CGFloat = 3.0
         let plusWidth: CGFloat = min(bounds.width, bounds.height) * 0.6
         
-        var plusPath = UIBezierPath()
+        let plusPath = UIBezierPath()
         
         plusPath.lineWidth = plusHeight
         
@@ -48,12 +48,12 @@ class PushButtonView: UIButton {
             let colorSpace = CGColorSpaceCreateDeviceRGB()
             let colorLocations:[CGFloat] = [0.0, 1.0]
             let gradient = CGGradientCreateWithColors(colorSpace, colors, colorLocations)
-            var startPoint = CGPointZero
-            var endPoint = CGPoint(x:0.0, y:self.bounds.height)
+            _ = CGPointZero
+            _ = CGPoint(x:0.0, y:self.bounds.height)
             let center = CGPoint(x: CGRectGetMidX(rect), y: CGRectGetMidY(rect))
             let radius = self.bounds.width/2
-            CGContextSetBlendMode(context, kCGBlendModeDarken)
-            CGContextDrawRadialGradient(context, gradient, center, 0, center, radius, 0)
+            CGContextSetBlendMode(context, CGBlendMode.Darken)
+            CGContextDrawRadialGradient(context, gradient, center, 0, center, radius, CGGradientDrawingOptions())
         }
     }
 

@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>CC041AAE-9DBC-4819-8431-12BE24798F75</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Flourish</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>CF766DD32C2DD3A1779FE7EB6FBDE75C8C2E3CC8</key>
 		<string>https://github.com/BaptisteLanusse/whateverCodeSwift.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>tests dev/Flourish/Flourish.xcodeproj</string>
+	<string>tests dev/Flourish/Flourish.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>CF766DD32C2DD3A1779FE7EB6FBDE75C8C2E3CC8</key>

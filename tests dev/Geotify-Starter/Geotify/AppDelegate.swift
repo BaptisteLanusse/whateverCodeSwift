@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate
   func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
     locationManager.delegate = self
     locationManager.requestAlwaysAuthorization()
-    application.registerUserNotificationSettings(UIUserNotificationSettings(forTypes: .Sound | .Alert | .Badge, categories: nil))
+    application.registerUserNotificationSettings(UIUserNotificationSettings(forTypes: [.Sound, .Alert, .Badge], categories: nil))
     UIApplication.sharedApplication().cancelAllLocalNotifications()
     return true
   }
@@ -32,20 +32,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate
         }
       }
     } else {
-      var notification = UILocalNotification()
+      let notification = UILocalNotification()
       notification.alertBody = notefromRegionIdentifier(region.identifier)
       notification.soundName = UILocalNotificationDefaultSoundName
       UIApplication.sharedApplication().presentLocalNotificationNow(notification)
     }
   }
   
-  func locationManager(manager: CLLocationManager!, didEnterRegion region: CLRegion!) {
+  func locationManager(manager: CLLocationManager, didEnterRegion region: CLRegion) {
     if region is CLCircularRegion {
       handleRegionEvent(region)
     }
   }
   
-  func locationManager(manager: CLLocationManager!, didExitRegion region: CLRegion!) {
+  func locationManager(manager: CLLocationManager, didExitRegion region: CLRegion) {
     if region is CLCircularRegion {
       handleRegionEvent(region)
     }

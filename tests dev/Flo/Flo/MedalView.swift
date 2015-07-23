@@ -5,7 +5,7 @@ class MedalView: UIImageView {
     lazy var medalImage:UIImage = self.createMedalImage()
     
     func createMedalImage() -> UIImage {
-        println("creating Medal Image")
+        print("creating Medal Image")
         
         let size = CGSize(width: 120, height: 200)
         
@@ -24,7 +24,7 @@ class MedalView: UIImageView {
         
         CGContextBeginTransparencyLayer(context, nil)
         
-        var lowerRibbonPath = UIBezierPath()
+        let lowerRibbonPath = UIBezierPath()
         lowerRibbonPath.moveToPoint(CGPointMake(0, 0))
         lowerRibbonPath.addLineToPoint(CGPointMake(40, 0))
         lowerRibbonPath.addLineToPoint(CGPointMake(78, 70))
@@ -33,17 +33,17 @@ class MedalView: UIImageView {
         UIColor.redColor().setFill()
         lowerRibbonPath.fill()
         
-        var claspPath = UIBezierPath(roundedRect: CGRectMake(36, 62, 43, 20), cornerRadius: 5)
+        let claspPath = UIBezierPath(roundedRect: CGRectMake(36, 62, 43, 20), cornerRadius: 5)
         claspPath.lineWidth = 5
         darkGoldColor.setStroke()
         claspPath.stroke()
         
-        var medallionPath = UIBezierPath(ovalInRect: CGRect(origin: CGPointMake(8, 72), size: CGSizeMake(100, 100)))
+        let medallionPath = UIBezierPath(ovalInRect: CGRect(origin: CGPointMake(8, 72), size: CGSizeMake(100, 100)))
         CGContextSaveGState(context)
         medallionPath.addClip()
         let gradient = CGGradientCreateWithColors(CGColorSpaceCreateDeviceRGB(), [darkGoldColor.CGColor, midGoldColor.CGColor, lightGoldColor.CGColor], [0, 0.51, 1])
         
-        CGContextDrawLinearGradient(context, gradient, CGPointMake(40, 40), CGPointMake(100, 160), 0)
+        CGContextDrawLinearGradient(context, gradient, CGPointMake(40, 40), CGPointMake(100, 160), CGGradientDrawingOptions())
         
         CGContextRestoreGState(context)
         
@@ -55,7 +55,7 @@ class MedalView: UIImageView {
         medallionPath.applyTransform(transform)
         medallionPath.stroke()
         
-        var upperRibbonPath = UIBezierPath()
+        let upperRibbonPath = UIBezierPath()
         upperRibbonPath.moveToPoint(CGPointMake(68, 0))
         upperRibbonPath.addLineToPoint(CGPointMake(108, 0))
         upperRibbonPath.addLineToPoint(CGPointMake(78, 70))
@@ -68,7 +68,7 @@ class MedalView: UIImageView {
         let numberOne = "1"
         let numberOneRect = CGRectMake(47, 100, 50, 50)
         let font = UIFont(name: "Academy Engraved LET", size: 60)
-        let textStyle = NSMutableParagraphStyle.defaultParagraphStyle()
+        _ = NSMutableParagraphStyle.defaultParagraphStyle()
         let numberOneAttributes = [NSFontAttributeName: font!, NSForegroundColorAttributeName: darkGoldColor]
         numberOne.drawInRect(numberOneRect, withAttributes:numberOneAttributes)
         

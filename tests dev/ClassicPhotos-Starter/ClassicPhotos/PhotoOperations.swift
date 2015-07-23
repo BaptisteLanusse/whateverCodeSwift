@@ -94,7 +94,7 @@ class ImageFiltration: NSOperation {
     }
     
     func applySepiaFilter(image: UIImage) -> UIImage? {
-        let inputImage = CIImage(data: UIImagePNGRepresentation(image))
+        let inputImage = CIImage(data: UIImagePNGRepresentation(image)!)
         
         if self.cancelled {
             return nil
@@ -102,15 +102,15 @@ class ImageFiltration: NSOperation {
         
         let context = CIContext(options: nil)
         let filter = CIFilter(name: "CISepiaTone")
-        filter.setValue(inputImage, forKey: kCIInputImageKey)
-        filter.setValue(0.8, forKey: "inputIntensity")
-        let outputImage = filter.outputImage
+        filter!.setValue(inputImage, forKey: kCIInputImageKey)
+        filter!.setValue(0.8, forKey: "inputIntensity")
+        let outputImage = filter!.outputImage
         
         if self.cancelled {
             return nil
         }
         
-        let outImage = context.createCGImage(outputImage, fromRect: outputImage.extent())
+        let outImage = context.createCGImage(outputImage, fromRect: outputImage.extent)
         let returnImage = UIImage(CGImage: outImage)
         return returnImage
     }

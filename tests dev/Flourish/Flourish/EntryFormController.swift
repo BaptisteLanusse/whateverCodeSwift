@@ -24,7 +24,7 @@ class EntryFormController: UIViewController, UITextFieldDelegate, UITextViewDele
         
         var offset = 21
         
-        for (index, feeling) in enumerate(feelings)
+        for (index, feeling) in feelings.enumerate()
         {
             let button = UIButton()
             button.frame = CGRect(x: 13, y: offset, width: 260, height: 43)

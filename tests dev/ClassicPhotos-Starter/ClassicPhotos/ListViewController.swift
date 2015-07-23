@@ -34,7 +34,7 @@ class ListViewController: UITableViewController {
   }
   
   override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-    let cell = tableView.dequeueReusableCellWithIdentifier("CellIdentifier", forIndexPath: indexPath) as! UITableViewCell
+    let cell = tableView.dequeueReusableCellWithIdentifier("CellIdentifier", forIndexPath: indexPath) as UITableViewCell
     
     //1
     if cell.accessoryView == nil {
@@ -98,14 +98,14 @@ class ListViewController: UITableViewController {
     
     func loadImagesForOnscreenCells () {
         //1
-        if let pathsArray = tableView.indexPathsForVisibleRows() {
+        if let pathsArray = tableView.indexPathsForVisibleRows {
             //2
             var allPendingOperations = Set(pendingOperations.downloadsInProgress.keys.array)
             allPendingOperations.unionInPlace(pendingOperations.filtrationsInProgress.keys.array)
             
             //3
             var toBeCancelled = allPendingOperations
-            let visiblePaths = Set(pathsArray as! [NSIndexPath])
+            let visiblePaths = Set(pathsArray as [NSIndexPath])
             toBeCancelled.subtractInPlace(visiblePaths)
             
             //4
@@ -139,9 +139,9 @@ class ListViewController: UITableViewController {
         
         NSURLConnection.sendAsynchronousRequest(request, queue: NSOperationQueue.mainQueue()) {response,data,error in
             if data != nil {
-                let datasourceDictionary = NSPropertyListSerialization.propertyListWithData(data, options: Int(NSPropertyListMutabilityOptions.Immutable.rawValue), format: nil, error: nil) as! NSDictionary
+                let datasourceDictionary = NSPropertyListSerialization.propertyListWithData(data!, options: Int(NSPropertyListMutabilityOptions.Immutable.rawValue), format: nil) as! NSDictionary
                 
-                for(key : AnyObject,value : AnyObject) in datasourceDictionary {
+                for(key, value): (AnyObject, AnyObject) in datasourceDictionary {
                     let name = key as? String
                     let url = NSURL(string:value as? String ?? "")
                     if name != nil && url != nil {
@@ -154,7 +154,7 @@ class ListViewController: UITableViewController {
             }
             
             if error != nil {
-                let alert = UIAlertView(title:"Oops!",message:error.localizedDescription, delegate:nil, cancelButtonTitle:"OK")
+                let alert = UIAlertView(title:"Oops!",message:error!.localizedDescription, delegate:nil, cancelButtonTitle:"OK")
                 alert.show()
             }
             UIApplication.sharedApplication().networkActivityIndicatorVisible = false

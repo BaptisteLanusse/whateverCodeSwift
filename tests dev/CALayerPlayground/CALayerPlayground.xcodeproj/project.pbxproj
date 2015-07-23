@@ -159,6 +159,7 @@
 		969D0B0A1B206821003BB373 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Lanusse Baptiste";
 				TargetAttributes = {
@@ -415,6 +416,7 @@
 				969D0B331B206821003BB373 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		969D0B341B206821003BB373 /* Build configuration list for PBXNativeTarget "CALayerPlaygroundTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +425,7 @@
 				969D0B361B206821003BB373 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
