@@ -1,0 +1,8 @@
+[
+ {
+  "file": "/Users/lanussebaptiste/Desktop/Grimm-Starter/Grimm/StoryView.swift",
+  "offset": 1495,
+  "remove": 435,
+  "text": "translatesAutoresizingMaskIntoConstraints = false\n    return label\n    }()\n  \n  private var contentLabel: UILabel = {\n    let label = UILabel()\n    label.numberOfLines = 0\n    label.opaque = true\n    label.translatesAutoresizingMaskIntoConstraints = false\n    return label\n    }()\n  \n  private var separatorView: UIView = {\n    let view = UIView()\n    view.opaque = true\n    view.translatesAutoresizingMaskIntoConstraints = false",
+ }
+]

@@ -1,0 +1,8 @@
+[
+ {
+  "file": "/Users/lanussebaptiste/Desktop/Grimm-Starter/Grimm/OptionsController.swift",
+  "offset": 1617,
+  "remove": 1063,
+  "text": "! UIView\n    scrollView.scrollsToTop = false\n    view.addSubview(optionsView)\n    \n    // blur here, you will\n    \n    var constraints = [NSLayoutConstraint]()\n    \n    constraints.append(NSLayoutConstraint(item: view, attribute: .CenterX, relatedBy: .Equal,\n      toItem: optionsView, attribute: .CenterX, multiplier: 1, constant: 0))\n    \n    constraints.append(NSLayoutConstraint(item: view, attribute: .CenterY, relatedBy: .Equal,\n      toItem: optionsView, attribute: .CenterY, multiplier: 1, constant: 0))\n    \n    view.addConstraints(constraints)\n  }\n  \n  override func viewWillAppear(animated: Bool) {\n    super.viewWillAppear(animated)\n    scrollView.contentSize = CGSizeMake(1272, 44)\n    \n    let theme = Theme.sharedInstance\n    readingModeSegmentedControl.selectedSegmentIndex = theme.readingMode.rawValue\n    titleAlignmentSegmentedControl.selectedSegmentIndex = theme.titleAlignment.rawValue\n    currentPage = theme.font.rawValue\n    pageControl.currentPage = currentPage\n    synchronizeViews(false)\n  }\n  \n  @IBAction func pageControlPageDidChange(_: ",
+ }
+]

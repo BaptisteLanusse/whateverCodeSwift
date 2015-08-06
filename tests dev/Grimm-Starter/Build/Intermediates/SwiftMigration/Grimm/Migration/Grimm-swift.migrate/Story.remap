@@ -1,0 +1,8 @@
+[
+ {
+  "file": "/Users/lanussebaptiste/Desktop/Grimm-Starter/Grimm/Story.swift",
+  "offset": 1687,
+  "remove": 745,
+  "text": "do {\n        let contents = try manager.contentsOfDirectoryAtPath(path)\n        error = nil\n        \n        for file in contents {\n          if file.hasSuffix(\".grm\") {\n            let filePath = path.stringByAppendingPathComponent(file as String)\n            let title = file.stringByDeletingPathExtension\n            \n            if let content = NSString(contentsOfFile: filePath, encoding: NSUTF8StringEncoding, error: error) {\n              let story = Story(title: title, content: content)\n              \n              if error != nil {\n                break\n              }\n              \n              stories.append(story)\n              \n              error = nil\n            }\n          }\n        }\n      } catch var error1 as NSError {\n        error.memory = error1\n      } catch {\n        fatalError()\n      }\n      \n      stories.sortInPlace",
+ }
+]

@@ -1,0 +1,8 @@
+version: "Apple Swift version 2.0 (swiftlang-700.0.45 clang-700.0.57.2)"
+options: "b8e0ef75147583ac93f7804da6225326"
+build_time: [492161058, 900479000]
+inputs: 
+	/Users/lanussebaptiste/Desktop/testJsonConnectionFromServer/testJsonConnectionFromServer/ViewController.swift: [492161046, 0]
+	/Users/lanussebaptiste/Desktop/testJsonConnectionFromServer/testJsonConnectionFromServer/SwiftyJSON.swift: [490969408, 0]
+	/Users/lanussebaptiste/Desktop/testJsonConnectionFromServer/testJsonConnectionFromServer/DataManager.swift: [490968185, 0]
+	/Users/lanussebaptiste/Desktop/testJsonConnectionFromServer/testJsonConnectionFromServer/AppDelegate.swift: [492104418, 0]

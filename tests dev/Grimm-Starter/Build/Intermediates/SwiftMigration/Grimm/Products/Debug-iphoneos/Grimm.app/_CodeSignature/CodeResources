@@ -1,0 +1,861 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>files</key>
+	<dict>
+		<key>AppIcon60x60@2x.png</key>
+		<data>
+		B+ZN+EPv2uIThGHDJ2BU19gwxF4=
+		</data>
+		<key>AppIcon60x60@3x.png</key>
+		<data>
+		EzhNCpgT1OM6EpSjd+GFh120t7g=
+		</data>
+		<key>AppIcon76x76@2x~ipad.png</key>
+		<data>
+		NvwXbA2rjByZFvzaSjTkj154wo0=
+		</data>
+		<key>AppIcon76x76~ipad.png</key>
+		<data>
+		mfnDV3fV90kBJoqbcZXB72BdGvU=
+		</data>
+		<key>Ashputtel.grm</key>
+		<data>
+		CMhJbe1YB/2U+SeB4BzZWZYbumg=
+		</data>
+		<key>Assets.car</key>
+		<data>
+		ukKazEA4/7txW7vIRhbRk7cgchY=
+		</data>
+		<key>Base.lproj/Grimm.storyboardc/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hGDdvq0t+L2soC1DYaYMLwjQnaQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Grimm.storyboardc/UIViewController-TzV-pR-oH8.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TLdBwqBkINL6oT34Ld9OsG7P0n4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Grimm.storyboardc/UIViewController-i0V-Dj-qWB.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BBpNyhJOA/9REXtXLBQEFODa48I=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Grimm.storyboardc/UIViewController-jT1-Np-ygL.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			FuiZQUzAycMs14H9a4xawvcNy1s=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Grimm.storyboardc/fjj-Br-uf3-view-Znx-Qp-QGG.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			rifqDAATFiymVbEeOmieroDHQQM=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Grimm.storyboardc/i0V-Dj-qWB-view-vnt-dL-xBd.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Edme6UWeHGwthRXDgFbmAbGLFJU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Grimm.storyboardc/jT1-Np-ygL-view-Ff3-Ny-dgq.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2kcuRqnxt7hubl9zXRQl4GtHeb4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Briar Rose.grm</key>
+		<data>
+		pONw/9pr09UtOwp9U/CcKGqz6R4=
+		</data>
+		<key>Cat Skin.grm</key>
+		<data>
+		FFf0uojDTWw3OdrpT74N6cyEU1A=
+		</data>
+		<key>Cat and Mouse In Partnership.grm</key>
+		<data>
+		pgVO6GTjCAbKP5+584EkRjX/Q04=
+		</data>
+		<key>Clever Elsie.grm</key>
+		<data>
+		AE92S5aDWCBtN5wjRnqjMOub/3s=
+		</data>
+		<key>Clever Gretel.grm</key>
+		<data>
+		uhH+vMuvr2G88oYdzmBk6fDS178=
+		</data>
+		<key>Clever Hans.grm</key>
+		<data>
+		NGksh38XUfZWQRBv0wT+fiyCDpM=
+		</data>
+		<key>Doctor Knowall.grm</key>
+		<data>
+		C0Y8j5Uh/JAx6ALXjb3Jlj7P4xQ=
+		</data>
+		<key>FiraSans-Regular.otf</key>
+		<data>
+		FUwvDRPaDnr6SWCfLPVlxyg6xKk=
+		</data>
+		<key>FiraSans-SemiBold.otf</key>
+		<data>
+		yXYwsomL6LojgwnKt9NIKs3yUYU=
+		</data>
+		<key>Frederick and Catherine.grm</key>
+		<data>
+		83ae8CqBASgrlhHYbKWEmhN/6VA=
+		</data>
+		<key>Fundevogel.grm</key>
+		<data>
+		ydIW/RmNnJy5s0mQSz6nw0irl4A=
+		</data>
+		<key>Hans In Luck.grm</key>
+		<data>
+		SxPduwZ0PZ+TiZrXjr2PJcrXs5M=
+		</data>
+		<key>Hansel and Gretel.grm</key>
+		<data>
+		GBzHoVr45bH/V/NE02OT5bqvlnQ=
+		</data>
+		<key>Iron Hans.grm</key>
+		<data>
+		d9J4C9Ki9mjAVYTwN3j3JhCoBbE=
+		</data>
+		<key>Jorinda And Jorindel.grm</key>
+		<data>
+		xfKsloXeMzlQG1cFnLDs/GkVO0o=
+		</data>
+		<key>King Grisly-Beard.grm</key>
+		<data>
+		1fsM8bVpraPqHdE18SAAYFdkw0Y=
+		</data>
+		<key>Lily and The Lion.grm</key>
+		<data>
+		vKTY9Dmq85eo92nVLoWED0xeTvw=
+		</data>
+		<key>Little Red Cap.grm</key>
+		<data>
+		EqkZ7bdkCSUIuEpfAgoDlzWDF+0=
+		</data>
+		<key>Mother Holle.grm</key>
+		<data>
+		wi39Ir0T7LNanfi4JKDRqITCZ/E=
+		</data>
+		<key>NotoSans-Bold.ttf</key>
+		<data>
+		lfgqo2DhzkvvsKoGAmLk9tPsaVg=
+		</data>
+		<key>NotoSans-Regular.ttf</key>
+		<data>
+		WLb/tErJ1MkUKl4Yyrmsf8GJoC4=
+		</data>
+		<key>Old Sultan.grm</key>
+		<data>
+		Pq0xz2UxjeRyVVXc2Tb/18rYlD0=
+		</data>
+		<key>OpenSans-Regular.ttf</key>
+		<data>
+		NWTtC1Nj31zyd8FuDGvtxaaCIX8=
+		</data>
+		<key>OpenSans-Semibold.ttf</key>
+		<data>
+		8e56nG0T7i1kKoBsCec3J15hN5I=
+		</data>
+		<key>OptionsView.nib</key>
+		<data>
+		Va6Cm1c7TOw0e4lFJk9VJFiJPds=
+		</data>
+		<key>PTS55F.ttf</key>
+		<data>
+		qw9Suq2GVQPVjn0k9YYzlwHrD74=
+		</data>
+		<key>PTS75F.ttf</key>
+		<data>
+		ZqLGNOfSMBldaHTzrD8btMThb7s=
+		</data>
+		<key>PkgInfo</key>
+		<data>
+		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>Rapunzel.grm</key>
+		<data>
+		K8LcMKOczRbLQkXG1pUAY8OlN40=
+		</data>
+		<key>Rumpelstiltskin.grm</key>
+		<data>
+		FHu84hVQKwi40l5gGYm4aeRiBIc=
+		</data>
+		<key>Snow White and Rose Red.grm</key>
+		<data>
+		rXhdCY+Y45t9/61tyHR67JdpH0I=
+		</data>
+		<key>Snowdrop.grm</key>
+		<data>
+		goFtXvdjPwkhGtqgMUFbWWwe51I=
+		</data>
+		<key>SourceSansPro-Regular.otf</key>
+		<data>
+		UM4MtpPyc0A826x/IFxhi2glBew=
+		</data>
+		<key>SourceSansPro-Semibold.otf</key>
+		<data>
+		0UQnn4Tr6gMGuEtvUSuURx/s+9o=
+		</data>
+		<key>Sweetheart Roland.grm</key>
+		<data>
+		l4FZ4tgliFZENXgXUgP2lx4HLzM=
+		</data>
+		<key>The Adventures of Chanticleer and Partlet.grm</key>
+		<data>
+		FpsEVOLHbd4a50aT7hbB6s75yDM=
+		</data>
+		<key>The Blue Light.grm</key>
+		<data>
+		qMbp+/RpxS0vbWed+26LIZsd+rA=
+		</data>
+		<key>The Dog and The Sparrow.grm</key>
+		<data>
+		chApvcnEWIfIFct9HtA+VQzquh4=
+		</data>
+		<key>The Elves and The Shoemaker.grm</key>
+		<data>
+		TtJ8jh6/iR2UIj0ZcwHh/wMdJIQ=
+		</data>
+		<key>The Fisherman and His Wife.grm</key>
+		<data>
+		TZCQ+QYJ7ax7XaoGGlmR0L6vSbA=
+		</data>
+		<key>The Four Clever Brothers.grm</key>
+		<data>
+		C6oKnGP212QsuBGZKQ2KN74xQqA=
+		</data>
+		<key>The Fox and The Cat.grm</key>
+		<data>
+		eu4JiJ93UEJTnmX63K9uxWiQ7UI=
+		</data>
+		<key>The Fox and The Horse.grm</key>
+		<data>
+		paE+xTA/J6/s7lx9y2mmgJaxJCs=
+		</data>
+		<key>The Frog Prince.grm</key>
+		<data>
+		3cBjiCnzkbP8G/JExRJXSPY6O8k=
+		</data>
+		<key>The Golden Bird.grm</key>
+		<data>
+		qciEwx1uzfl0vDqZSWqx+j5RmvE=
+		</data>
+		<key>The Golden Goose.grm</key>
+		<data>
+		5u9d14wm9wfBYutDJuuotTO8xlQ=
+		</data>
+		<key>The Goose Girl.grm</key>
+		<data>
+		Jh/66RiU4WcgyCppHYg/vNdQwdw=
+		</data>
+		<key>The Juniper Tree.grm</key>
+		<data>
+		shxB4+q1cek5WayqOCo6jroBkXA=
+		</data>
+		<key>The King of The Golden Mountain.grm</key>
+		<data>
+		U6yPkDdUy25C7uCZutuYPhy/mqg=
+		</data>
+		<key>The Little Peasant.grm</key>
+		<data>
+		t1dMXtBw1sJ7ph8ZmDCzcFPKG8w=
+		</data>
+		<key>The Miser In The Bush.grm</key>
+		<data>
+		N3iTQEWui0F3dR0o8tX73dVbXRs=
+		</data>
+		<key>The Mouse, The Bird, and The Sausage.grm</key>
+		<data>
+		bPRODxzKFFIZPaEB8uplmt1gThc=
+		</data>
+		<key>The Old Man and His Grandson.grm</key>
+		<data>
+		UHRvZMhXEvPqzmq3BfoU6z/WCr4=
+		</data>
+		<key>The Pink.grm</key>
+		<data>
+		5/rdq6QDFN0PCerR1KD3OVScO2w=
+		</data>
+		<key>The Queen Bee.grm</key>
+		<data>
+		sCn1jqhkmvOHf9BPo8OB12NMBhs=
+		</data>
+		<key>The Raven.grm</key>
+		<data>
+		JfWmpCADtjF2Ziwnhk/0nWC6mS4=
+		</data>
+		<key>The Robber Bridegroom.grm</key>
+		<data>
+		0bb6/u/Maj8Dp7nTu5RmfttAw2U=
+		</data>
+		<key>The Salad.grm</key>
+		<data>
+		3AGTpCHHksishLJB/vMAIHMLy8w=
+		</data>
+		<key>The Seven Ravens.grm</key>
+		<data>
+		qkPKwlqI8SdoULyDd9Obzv18mNo=
+		</data>
+		<key>The Straw, The Coal, And The Bean.grm</key>
+		<data>
+		sLgE4MrOwwlVcaEUHHHPWSP4vAg=
+		</data>
+		<key>The Three Languages.grm</key>
+		<data>
+		L5niXAF3pR7NYzAMQU07A569X0k=
+		</data>
+		<key>The Travelling Musicians.grm</key>
+		<data>
+		54/+1LvsbFSwIr1r7a1bpWoNvSQ=
+		</data>
+		<key>The Turnip.grm</key>
+		<data>
+		168JQz/U8xrd9cyadf3XBSgjYJY=
+		</data>
+		<key>The Twelve Dancing Princesses.grm</key>
+		<data>
+		HuHNfSIbjtdyPGFHtFdQNdq7vjs=
+		</data>
+		<key>The Twelve Huntsmen.grm</key>
+		<data>
+		qQ9ZBiZ2zItGOQRVhDq+CGOmWAc=
+		</data>
+		<key>The Valiant Little Tailor.grm</key>
+		<data>
+		HQjdU3LeskrlNMat+T/h3K9IKS8=
+		</data>
+		<key>The Water of Life.grm</key>
+		<data>
+		yOBO5RhtPJuKbGFE3gZAYOkeGuo=
+		</data>
+		<key>The Wedding of Mrs Fox.grm</key>
+		<data>
+		JvtjFl0adyRdyr6PFRa/3bzKVD8=
+		</data>
+		<key>The White Snake.grm</key>
+		<data>
+		by7UyoUTd3yPiETtmhcGD4xp3w4=
+		</data>
+		<key>The Willow Wren and The Bear.grm</key>
+		<data>
+		Uv421QmGhSC7Su4zTtHrsAjC4o8=
+		</data>
+		<key>The Wolf and The Seven Little Kids.grm</key>
+		<data>
+		mNut4Hi89BqNPvCWAx4R8Ug11y4=
+		</data>
+		<key>Tom Thumb.grm</key>
+		<data>
+		y3kEB/WGYKnt+PJamYMuAZ0zMoI=
+		</data>
+		<key>embedded.mobileprovision</key>
+		<data>
+		FC4z+eZa3T6n5+aSpCMMhsAPHDE=
+		</data>
+	</dict>
+	<key>files2</key>
+	<dict>
+		<key>AppIcon60x60@2x.png</key>
+		<data>
+		B+ZN+EPv2uIThGHDJ2BU19gwxF4=
+		</data>
+		<key>AppIcon60x60@3x.png</key>
+		<data>
+		EzhNCpgT1OM6EpSjd+GFh120t7g=
+		</data>
+		<key>AppIcon76x76@2x~ipad.png</key>
+		<data>
+		NvwXbA2rjByZFvzaSjTkj154wo0=
+		</data>
+		<key>AppIcon76x76~ipad.png</key>
+		<data>
+		mfnDV3fV90kBJoqbcZXB72BdGvU=
+		</data>
+		<key>Ashputtel.grm</key>
+		<data>
+		CMhJbe1YB/2U+SeB4BzZWZYbumg=
+		</data>
+		<key>Assets.car</key>
+		<data>
+		ukKazEA4/7txW7vIRhbRk7cgchY=
+		</data>
+		<key>Base.lproj/Grimm.storyboardc/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hGDdvq0t+L2soC1DYaYMLwjQnaQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Grimm.storyboardc/UIViewController-TzV-pR-oH8.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TLdBwqBkINL6oT34Ld9OsG7P0n4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Grimm.storyboardc/UIViewController-i0V-Dj-qWB.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BBpNyhJOA/9REXtXLBQEFODa48I=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Grimm.storyboardc/UIViewController-jT1-Np-ygL.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			FuiZQUzAycMs14H9a4xawvcNy1s=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Grimm.storyboardc/fjj-Br-uf3-view-Znx-Qp-QGG.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			rifqDAATFiymVbEeOmieroDHQQM=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Grimm.storyboardc/i0V-Dj-qWB-view-vnt-dL-xBd.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Edme6UWeHGwthRXDgFbmAbGLFJU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Grimm.storyboardc/jT1-Np-ygL-view-Ff3-Ny-dgq.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2kcuRqnxt7hubl9zXRQl4GtHeb4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Briar Rose.grm</key>
+		<data>
+		pONw/9pr09UtOwp9U/CcKGqz6R4=
+		</data>
+		<key>Cat Skin.grm</key>
+		<data>
+		FFf0uojDTWw3OdrpT74N6cyEU1A=
+		</data>
+		<key>Cat and Mouse In Partnership.grm</key>
+		<data>
+		pgVO6GTjCAbKP5+584EkRjX/Q04=
+		</data>
+		<key>Clever Elsie.grm</key>
+		<data>
+		AE92S5aDWCBtN5wjRnqjMOub/3s=
+		</data>
+		<key>Clever Gretel.grm</key>
+		<data>
+		uhH+vMuvr2G88oYdzmBk6fDS178=
+		</data>
+		<key>Clever Hans.grm</key>
+		<data>
+		NGksh38XUfZWQRBv0wT+fiyCDpM=
+		</data>
+		<key>Doctor Knowall.grm</key>
+		<data>
+		C0Y8j5Uh/JAx6ALXjb3Jlj7P4xQ=
+		</data>
+		<key>FiraSans-Regular.otf</key>
+		<data>
+		FUwvDRPaDnr6SWCfLPVlxyg6xKk=
+		</data>
+		<key>FiraSans-SemiBold.otf</key>
+		<data>
+		yXYwsomL6LojgwnKt9NIKs3yUYU=
+		</data>
+		<key>Frederick and Catherine.grm</key>
+		<data>
+		83ae8CqBASgrlhHYbKWEmhN/6VA=
+		</data>
+		<key>Fundevogel.grm</key>
+		<data>
+		ydIW/RmNnJy5s0mQSz6nw0irl4A=
+		</data>
+		<key>Hans In Luck.grm</key>
+		<data>
+		SxPduwZ0PZ+TiZrXjr2PJcrXs5M=
+		</data>
+		<key>Hansel and Gretel.grm</key>
+		<data>
+		GBzHoVr45bH/V/NE02OT5bqvlnQ=
+		</data>
+		<key>Iron Hans.grm</key>
+		<data>
+		d9J4C9Ki9mjAVYTwN3j3JhCoBbE=
+		</data>
+		<key>Jorinda And Jorindel.grm</key>
+		<data>
+		xfKsloXeMzlQG1cFnLDs/GkVO0o=
+		</data>
+		<key>King Grisly-Beard.grm</key>
+		<data>
+		1fsM8bVpraPqHdE18SAAYFdkw0Y=
+		</data>
+		<key>Lily and The Lion.grm</key>
+		<data>
+		vKTY9Dmq85eo92nVLoWED0xeTvw=
+		</data>
+		<key>Little Red Cap.grm</key>
+		<data>
+		EqkZ7bdkCSUIuEpfAgoDlzWDF+0=
+		</data>
+		<key>Mother Holle.grm</key>
+		<data>
+		wi39Ir0T7LNanfi4JKDRqITCZ/E=
+		</data>
+		<key>NotoSans-Bold.ttf</key>
+		<data>
+		lfgqo2DhzkvvsKoGAmLk9tPsaVg=
+		</data>
+		<key>NotoSans-Regular.ttf</key>
+		<data>
+		WLb/tErJ1MkUKl4Yyrmsf8GJoC4=
+		</data>
+		<key>Old Sultan.grm</key>
+		<data>
+		Pq0xz2UxjeRyVVXc2Tb/18rYlD0=
+		</data>
+		<key>OpenSans-Regular.ttf</key>
+		<data>
+		NWTtC1Nj31zyd8FuDGvtxaaCIX8=
+		</data>
+		<key>OpenSans-Semibold.ttf</key>
+		<data>
+		8e56nG0T7i1kKoBsCec3J15hN5I=
+		</data>
+		<key>OptionsView.nib</key>
+		<data>
+		Va6Cm1c7TOw0e4lFJk9VJFiJPds=
+		</data>
+		<key>PTS55F.ttf</key>
+		<data>
+		qw9Suq2GVQPVjn0k9YYzlwHrD74=
+		</data>
+		<key>PTS75F.ttf</key>
+		<data>
+		ZqLGNOfSMBldaHTzrD8btMThb7s=
+		</data>
+		<key>Rapunzel.grm</key>
+		<data>
+		K8LcMKOczRbLQkXG1pUAY8OlN40=
+		</data>
+		<key>Rumpelstiltskin.grm</key>
+		<data>
+		FHu84hVQKwi40l5gGYm4aeRiBIc=
+		</data>
+		<key>Snow White and Rose Red.grm</key>
+		<data>
+		rXhdCY+Y45t9/61tyHR67JdpH0I=
+		</data>
+		<key>Snowdrop.grm</key>
+		<data>
+		goFtXvdjPwkhGtqgMUFbWWwe51I=
+		</data>
+		<key>SourceSansPro-Regular.otf</key>
+		<data>
+		UM4MtpPyc0A826x/IFxhi2glBew=
+		</data>
+		<key>SourceSansPro-Semibold.otf</key>
+		<data>
+		0UQnn4Tr6gMGuEtvUSuURx/s+9o=
+		</data>
+		<key>Sweetheart Roland.grm</key>
+		<data>
+		l4FZ4tgliFZENXgXUgP2lx4HLzM=
+		</data>
+		<key>The Adventures of Chanticleer and Partlet.grm</key>
+		<data>
+		FpsEVOLHbd4a50aT7hbB6s75yDM=
+		</data>
+		<key>The Blue Light.grm</key>
+		<data>
+		qMbp+/RpxS0vbWed+26LIZsd+rA=
+		</data>
+		<key>The Dog and The Sparrow.grm</key>
+		<data>
+		chApvcnEWIfIFct9HtA+VQzquh4=
+		</data>
+		<key>The Elves and The Shoemaker.grm</key>
+		<data>
+		TtJ8jh6/iR2UIj0ZcwHh/wMdJIQ=
+		</data>
+		<key>The Fisherman and His Wife.grm</key>
+		<data>
+		TZCQ+QYJ7ax7XaoGGlmR0L6vSbA=
+		</data>
+		<key>The Four Clever Brothers.grm</key>
+		<data>
+		C6oKnGP212QsuBGZKQ2KN74xQqA=
+		</data>
+		<key>The Fox and The Cat.grm</key>
+		<data>
+		eu4JiJ93UEJTnmX63K9uxWiQ7UI=
+		</data>
+		<key>The Fox and The Horse.grm</key>
+		<data>
+		paE+xTA/J6/s7lx9y2mmgJaxJCs=
+		</data>
+		<key>The Frog Prince.grm</key>
+		<data>
+		3cBjiCnzkbP8G/JExRJXSPY6O8k=
+		</data>
+		<key>The Golden Bird.grm</key>
+		<data>
+		qciEwx1uzfl0vDqZSWqx+j5RmvE=
+		</data>
+		<key>The Golden Goose.grm</key>
+		<data>
+		5u9d14wm9wfBYutDJuuotTO8xlQ=
+		</data>
+		<key>The Goose Girl.grm</key>
+		<data>
+		Jh/66RiU4WcgyCppHYg/vNdQwdw=
+		</data>
+		<key>The Juniper Tree.grm</key>
+		<data>
+		shxB4+q1cek5WayqOCo6jroBkXA=
+		</data>
+		<key>The King of The Golden Mountain.grm</key>
+		<data>
+		U6yPkDdUy25C7uCZutuYPhy/mqg=
+		</data>
+		<key>The Little Peasant.grm</key>
+		<data>
+		t1dMXtBw1sJ7ph8ZmDCzcFPKG8w=
+		</data>
+		<key>The Miser In The Bush.grm</key>
+		<data>
+		N3iTQEWui0F3dR0o8tX73dVbXRs=
+		</data>
+		<key>The Mouse, The Bird, and The Sausage.grm</key>
+		<data>
+		bPRODxzKFFIZPaEB8uplmt1gThc=
+		</data>
+		<key>The Old Man and His Grandson.grm</key>
+		<data>
+		UHRvZMhXEvPqzmq3BfoU6z/WCr4=
+		</data>
+		<key>The Pink.grm</key>
+		<data>
+		5/rdq6QDFN0PCerR1KD3OVScO2w=
+		</data>
+		<key>The Queen Bee.grm</key>
+		<data>
+		sCn1jqhkmvOHf9BPo8OB12NMBhs=
+		</data>
+		<key>The Raven.grm</key>
+		<data>
+		JfWmpCADtjF2Ziwnhk/0nWC6mS4=
+		</data>
+		<key>The Robber Bridegroom.grm</key>
+		<data>
+		0bb6/u/Maj8Dp7nTu5RmfttAw2U=
+		</data>
+		<key>The Salad.grm</key>
+		<data>
+		3AGTpCHHksishLJB/vMAIHMLy8w=
+		</data>
+		<key>The Seven Ravens.grm</key>
+		<data>
+		qkPKwlqI8SdoULyDd9Obzv18mNo=
+		</data>
+		<key>The Straw, The Coal, And The Bean.grm</key>
+		<data>
+		sLgE4MrOwwlVcaEUHHHPWSP4vAg=
+		</data>
+		<key>The Three Languages.grm</key>
+		<data>
+		L5niXAF3pR7NYzAMQU07A569X0k=
+		</data>
+		<key>The Travelling Musicians.grm</key>
+		<data>
+		54/+1LvsbFSwIr1r7a1bpWoNvSQ=
+		</data>
+		<key>The Turnip.grm</key>
+		<data>
+		168JQz/U8xrd9cyadf3XBSgjYJY=
+		</data>
+		<key>The Twelve Dancing Princesses.grm</key>
+		<data>
+		HuHNfSIbjtdyPGFHtFdQNdq7vjs=
+		</data>
+		<key>The Twelve Huntsmen.grm</key>
+		<data>
+		qQ9ZBiZ2zItGOQRVhDq+CGOmWAc=
+		</data>
+		<key>The Valiant Little Tailor.grm</key>
+		<data>
+		HQjdU3LeskrlNMat+T/h3K9IKS8=
+		</data>
+		<key>The Water of Life.grm</key>
+		<data>
+		yOBO5RhtPJuKbGFE3gZAYOkeGuo=
+		</data>
+		<key>The Wedding of Mrs Fox.grm</key>
+		<data>
+		JvtjFl0adyRdyr6PFRa/3bzKVD8=
+		</data>
+		<key>The White Snake.grm</key>
+		<data>
+		by7UyoUTd3yPiETtmhcGD4xp3w4=
+		</data>
+		<key>The Willow Wren and The Bear.grm</key>
+		<data>
+		Uv421QmGhSC7Su4zTtHrsAjC4o8=
+		</data>
+		<key>The Wolf and The Seven Little Kids.grm</key>
+		<data>
+		mNut4Hi89BqNPvCWAx4R8Ug11y4=
+		</data>
+		<key>Tom Thumb.grm</key>
+		<data>
+		y3kEB/WGYKnt+PJamYMuAZ0zMoI=
+		</data>
+		<key>embedded.mobileprovision</key>
+		<data>
+		FC4z+eZa3T6n5+aSpCMMhsAPHDE=
+		</data>
+	</dict>
+	<key>rules</key>
+	<dict>
+		<key>^</key>
+		<true/>
+		<key>^.*\.lproj/</key>
+		<dict>
+			<key>optional</key>
+			<true/>
+			<key>weight</key>
+			<real>1000</real>
+		</dict>
+		<key>^.*\.lproj/locversion.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>1100</real>
+		</dict>
+		<key>^version.plist$</key>
+		<true/>
+	</dict>
+	<key>rules2</key>
+	<dict>
+		<key>.*\.dSYM($|/)</key>
+		<dict>
+			<key>weight</key>
+			<real>11</real>
+		</dict>
+		<key>^</key>
+		<dict>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^(.*/)?\.DS_Store$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>2000</real>
+		</dict>
+		<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>
+		<dict>
+			<key>nested</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
+		</dict>
+		<key>^.*</key>
+		<true/>
+		<key>^.*\.lproj/</key>
+		<dict>
+			<key>optional</key>
+			<true/>
+			<key>weight</key>
+			<real>1000</real>
+		</dict>
+		<key>^.*\.lproj/locversion.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>1100</real>
+		</dict>
+		<key>^Info\.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^PkgInfo$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^[^/]+$</key>
+		<dict>
+			<key>nested</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
+		</dict>
+		<key>^embedded\.provisionprofile$</key>
+		<dict>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^version\.plist$</key>
+		<dict>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+	</dict>
+</dict>
+</plist>

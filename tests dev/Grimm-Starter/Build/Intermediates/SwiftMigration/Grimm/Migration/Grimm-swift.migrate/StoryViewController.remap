@@ -1,0 +1,8 @@
+[
+ {
+  "file": "/Users/lanussebaptiste/Desktop/Grimm-Starter/Grimm/StoryViewController.swift",
+  "offset": 2207,
+  "remove": 600,
+  "text": "_: AnyObject) {\n    setOptionsHidden(showingOptions, animated: true)\n  }\n  \n  private func setOptionsHidden(hidden: Bool, animated: Bool) {\n    showingOptions = !hidden;\n    let height = CGRectGetHeight(optionsContainerView.bounds)\n    var constant = optionsContainerViewBottomConstraint.constant\n    constant = hidden ? (constant - height) : (constant + height)\n    view.layoutIfNeeded()\n    \n    if animated {\n      UIView.animateWithDuration(0.2,\n        delay: 0,\n        usingSpringWithDamping: 0.95,\n        initialSpringVelocity: 1,\n        options: [.AllowUserInteraction, .BeginFromCurrentState]",
+ }
+]

@@ -1,0 +1,14 @@
+version: "Apple Swift version 2.0 (swiftlang-700.0.45 clang-700.0.57.2)"
+options: "74d90f224e0a2f00c08cf8ccbba5a048"
+build_time: [492168777, 209327000]
+inputs: 
+	/Users/lanussebaptiste/Desktop/Grimm-Starter/Grimm/ThemedNavigationController.swift: [461868427, 0]
+	/Users/lanussebaptiste/Desktop/Grimm-Starter/Grimm/StoryViewController.swift: [463977924, 0]
+	/Users/lanussebaptiste/Desktop/Grimm-Starter/Grimm/StoryCell.swift: [467743819, 0]
+	/Users/lanussebaptiste/Desktop/Grimm-Starter/Grimm/OptionsController.swift: [467743795, 0]
+	/Users/lanussebaptiste/Desktop/Grimm-Starter/Grimm/StoryView.swift: [467743761, 0]
+	/Users/lanussebaptiste/Desktop/Grimm-Starter/Grimm/Story.swift: [467743806, 0]
+	/Users/lanussebaptiste/Desktop/Grimm-Starter/Grimm/Colors.swift: [460770062, 0]
+	/Users/lanussebaptiste/Desktop/Grimm-Starter/Grimm/AppDelegate.swift: [460770147, 0]
+	/Users/lanussebaptiste/Desktop/Grimm-Starter/Grimm/Theme.swift: [467743747, 0]
+	/Users/lanussebaptiste/Desktop/Grimm-Starter/Grimm/StoryListController.swift: [463978458, 0]

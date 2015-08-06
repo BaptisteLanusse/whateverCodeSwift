@@ -1,0 +1,9 @@
+version: "Apple Swift version 2.0 (swiftlang-700.0.45 clang-700.0.57.2)"
+options: "816ecc866a57c7760471aacf9e01f80b"
+build_time: [492160845, 894397000]
+inputs: 
+	/Users/lanussebaptiste/Documents/tests/Developpement/Apple dev swift/whateverCodeSwift/tests dev/JSONUse/TopApps/AppModel.swift: [490968154, 0]
+	/Users/lanussebaptiste/Documents/tests/Developpement/Apple dev swift/whateverCodeSwift/tests dev/JSONUse/TopApps/AppDelegate.swift: [465201370, 0]
+	/Users/lanussebaptiste/Documents/tests/Developpement/Apple dev swift/whateverCodeSwift/tests dev/JSONUse/TopApps/DataManager.swift: [490968185, 0]
+	/Users/lanussebaptiste/Documents/tests/Developpement/Apple dev swift/whateverCodeSwift/tests dev/JSONUse/TopApps/ViewController.swift: [490969763, 0]
+	/Users/lanussebaptiste/Documents/tests/Developpement/Apple dev swift/whateverCodeSwift/tests dev/JSONUse/TopApps/SwiftyJSON.swift: [490969408, 0]

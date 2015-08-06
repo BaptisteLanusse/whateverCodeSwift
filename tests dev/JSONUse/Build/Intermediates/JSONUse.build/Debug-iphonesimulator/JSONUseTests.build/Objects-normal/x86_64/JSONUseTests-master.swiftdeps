@@ -1,0 +1,5 @@
+version: "Apple Swift version 2.0 (swiftlang-700.0.45 clang-700.0.57.2)"
+options: "b931a4dde43b9322952a621c065f833d"
+build_time: [492160846, 940855000]
+inputs: 
+	/Users/lanussebaptiste/Documents/tests/Developpement/Apple dev swift/whateverCodeSwift/tests dev/JSONUse/TopAppsTests/TopAppsTests.swift: [464339914, 0]

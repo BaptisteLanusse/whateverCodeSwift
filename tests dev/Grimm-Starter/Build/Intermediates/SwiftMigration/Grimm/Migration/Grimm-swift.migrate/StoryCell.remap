@@ -1,0 +1,8 @@
+[
+ {
+  "file": "/Users/lanussebaptiste/Desktop/Grimm-Starter/Grimm/StoryCell.swift",
+  "offset": 1709,
+  "remove": 259,
+  "text": "translatesAutoresizingMaskIntoConstraints = false\n    return label\n    }()\n  \n  private var previewLabel: UILabel = {\n    let label = UILabel()\n    label.numberOfLines = 3\n    label.opaque = true\n    label.translatesAutoresizingMaskIntoConstraints = false",
+ }
+]
