@@ -1,0 +1,5 @@
+version: "Apple Swift version 2.0 (swiftlang-700.0.45 clang-700.0.57.2)"
+options: "e336e160a83207e3d5804d483435816d"
+build_time: [492182241, 188547000]
+inputs: 
+	/Users/lanussebaptiste/Desktop/Custom-Menu-Transition-Swift-Tutorial-master/MenuTests/MenuTests.swift: [463405046, 0]

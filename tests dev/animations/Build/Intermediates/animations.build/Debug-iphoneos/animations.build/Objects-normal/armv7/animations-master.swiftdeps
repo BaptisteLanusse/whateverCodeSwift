@@ -1,0 +1,6 @@
+version: "Apple Swift version 2.0 (swiftlang-700.0.45 clang-700.0.57.2)"
+options: "83de0043e15fb9d587d0a59bdcbbaca6"
+build_time: [492179429, 388601000]
+inputs: 
+	/Users/lanussebaptiste/Desktop/animations/animations/ViewController.swift: [492179428, 0]
+	/Users/lanussebaptiste/Desktop/animations/animations/AppDelegate.swift: [492177490, 0]

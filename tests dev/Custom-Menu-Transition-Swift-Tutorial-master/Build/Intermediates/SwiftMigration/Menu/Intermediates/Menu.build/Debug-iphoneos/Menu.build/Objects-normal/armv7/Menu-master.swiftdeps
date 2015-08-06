@@ -1,0 +1,8 @@
+version: "Apple Swift version 2.0 (swiftlang-700.0.45 clang-700.0.57.2)"
+options: "9d9dc855a073dd22659c226d14852a47"
+build_time: [492182237, 663304000]
+inputs: 
+	/Users/lanussebaptiste/Desktop/Custom-Menu-Transition-Swift-Tutorial-master/Menu/MenuViewController.swift: [463405046, 0]
+	/Users/lanussebaptiste/Desktop/Custom-Menu-Transition-Swift-Tutorial-master/Menu/MainViewController.swift: [463405046, 0]
+	/Users/lanussebaptiste/Desktop/Custom-Menu-Transition-Swift-Tutorial-master/Menu/MenuTransitionManager.swift: [463405046, 0]
+	/Users/lanussebaptiste/Desktop/Custom-Menu-Transition-Swift-Tutorial-master/Menu/AppDelegate.swift: [463405046, 0]
