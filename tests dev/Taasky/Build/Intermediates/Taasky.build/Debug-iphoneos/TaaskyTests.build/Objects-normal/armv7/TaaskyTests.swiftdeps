@@ -4,21 +4,21 @@ provides:
 nominals:
 - "C11TaaskyTests11TaaskyTests"
 class-members:
-- "tearDown"
-- "testPerformanceExample"
 - "setUp"
+- "testPerformanceExample"
 - "testExample"
+- "tearDown"
 top-level:
-- "XCTestCase"
-- !private "XCTAssert"
-- !private "StringLiteralType"
 - !private "BooleanLiteralType"
+- !private "StringLiteralType"
+- !private "XCTAssert"
+- "XCTestCase"
 member-access:
-- !private "C11TaaskyTests11TaaskyTests"
-- "PSs9AnyObject"
-- "CSo6XCTest"
 - "CSo8NSObject"
 - "CSo10XCTestCase"
+- "PSs9AnyObject"
+- !private "C11TaaskyTests11TaaskyTests"
+- "CSo6XCTest"
 dynamic-lookup:
 cross-module:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/32/Swift.swiftmodule"

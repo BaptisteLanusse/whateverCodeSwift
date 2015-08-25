@@ -4,15 +4,15 @@ nominals:
 - "CSo7UIColor"
 class-members:
 top-level:
-- !private "/"
-- "UIColor"
 - !private "CGFloat"
 - "NSArray"
+- !private "/"
+- "UIColor"
 member-access:
 - "CSo7UIColor"
-- !private "CSo7NSArray"
 - !private "V12CoreGraphics7CGFloat"
 - "CSo8NSObject"
+- !private "CSo7NSArray"
 dynamic-lookup:
 cross-module:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/32/Swift.swiftmodule"
