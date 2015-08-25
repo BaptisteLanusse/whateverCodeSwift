@@ -1,0 +1,10 @@
+version: "Apple Swift version 1.2 (swiftlang-602.0.53.1 clang-602.0.53)"
+options: "4ffd183530f23ff47f404b01bd4a2f22"
+inputs: 
+- "/Users/lanussebaptiste/Desktop/Taasky/Taasky/Extensions.swift"
+- "/Users/lanussebaptiste/Desktop/Taasky/Taasky/MenuViewController.swift"
+- "/Users/lanussebaptiste/Desktop/Taasky/Taasky/AppDelegate.swift"
+- "/Users/lanussebaptiste/Desktop/Taasky/Taasky/MenuItemCell.swift"
+- "/Users/lanussebaptiste/Desktop/Taasky/Taasky/HamburgerView.swift"
+- "/Users/lanussebaptiste/Desktop/Taasky/Taasky/ContainerViewController.swift"
+- "/Users/lanussebaptiste/Desktop/Taasky/Taasky/DetailViewController.swift"
