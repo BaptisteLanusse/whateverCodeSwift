@@ -1,0 +1,8 @@
+[
+ {
+  "file": "/Users/lanussebaptiste/Desktop/Vehicles/Vehicles/AppDelegate.swift",
+  "offset": 461,
+  "remove": 383,
+  "text": "let vehicle = Vehicle()\n    \n    print(\"Vehicle turn: \\(vehicle.turn(700))\")\n    let changeGearResult = vehicle.changeGears(\"Test\")\n    print(\"Vehicle change gears: \\(changeGearResult)\")\n    \n    print(\"Vehicle make noise: \\(vehicle.makeNoise())\")\n    print(\"Vehicle go forward: \\(vehicle.goForward())\")\n    print(\"Vehicle go backward: \\(vehicle.goBackward())\")\n    print",
+ }
+]

@@ -1,0 +1,7 @@
+version: "Apple Swift version 1.2 (swiftlang-602.0.53.1 clang-602.0.53)"
+options: "2e199b48057b93812ffa01ad045e6c0f"
+inputs: 
+- "/Users/lanussebaptiste/Desktop/ElasticUI-Starter/ElasticUI/ViewController.swift"
+- "/Users/lanussebaptiste/Desktop/ElasticUI-Starter/ElasticUI/ElasticView.swift"
+- "/Users/lanussebaptiste/Desktop/ElasticUI-Starter/ElasticUI/AppDelegate.swift"
+- "/Users/lanussebaptiste/Desktop/ElasticUI-Starter/ElasticUI/ElasticTextField.swift"

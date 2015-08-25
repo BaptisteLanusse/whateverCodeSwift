@@ -1,0 +1,11 @@
+version: "Apple Swift version 1.2 (swiftlang-602.0.53.1 clang-602.0.53)"
+options: "4a89fe7d5c89107acc649514a7ab681e"
+inputs: 
+- !dirty "/Users/lanussebaptiste/Desktop/Vehicles/Vehicles/UIAlertController+Convenience.swift"
+- "/Users/lanussebaptiste/Desktop/Vehicles/Vehicles/Vehicle.swift"
+- "/Users/lanussebaptiste/Desktop/Vehicles/Vehicles/VehicleDetailViewController.swift"
+- "/Users/lanussebaptiste/Desktop/Vehicles/Vehicles/MotorCycle.swift"
+- "/Users/lanussebaptiste/Desktop/Vehicles/Vehicles/Car.swift"
+- !dirty "/Users/lanussebaptiste/Desktop/Vehicles/Vehicles/VehicleListTableViewController.swift"
+- "/Users/lanussebaptiste/Desktop/Vehicles/Vehicles/AppDelegate.swift"
+- "/Users/lanussebaptiste/Desktop/Vehicles/Vehicles/Truck.swift"

@@ -1,0 +1,5 @@
+version: "Apple Swift version 2.0 (swiftlang-700.0.45 clang-700.0.57.2)"
+options: "71404f262e77d14fbaeb5fdfe46613d6"
+build_time: [493722381, 915844000]
+inputs: 
+	/Users/lanussebaptiste/Desktop/Vehicles/VehiclesTests/VehiclesTests.swift: [463514701, 0]

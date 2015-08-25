@@ -1,0 +1,9 @@
+version: "Apple Swift version 2.0 (swiftlang-700.0.45 clang-700.0.57.2)"
+options: "19f59e63af939156bacb26ee32732bc4"
+build_time: [493722372, 673306000]
+inputs: 
+	/Users/lanussebaptiste/Desktop/Vehicles/Vehicles/AppDelegate.swift: [493721507, 0]
+	/Users/lanussebaptiste/Desktop/Vehicles/Vehicles/VehicleDetailViewController.swift: [463772453, 0]
+	/Users/lanussebaptiste/Desktop/Vehicles/Vehicles/VehicleListTableViewController.swift: [493721891, 0]
+	/Users/lanussebaptiste/Desktop/Vehicles/Vehicles/Vehicle.swift: [493721341, 0]
+	/Users/lanussebaptiste/Desktop/Vehicles/Vehicles/Car.swift: [493721825, 0]

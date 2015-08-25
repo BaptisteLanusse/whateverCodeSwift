@@ -1,0 +1,8 @@
+[
+ {
+  "file": "/Users/lanussebaptiste/Desktop/Vehicles/Vehicles/VehicleListTableViewController.swift",
+  "offset": 688,
+  "remove": 694,
+  "text": " {\n                let vehicle = vehicles[indexPath.row]\n                (segue.destinationViewController as! VehicleDetailViewController).detailVehicle = vehicle\n            }\n        }\n    }\n    \n    // MARK: - Table View\n    \n    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {\n        return 1\n    }\n    \n    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {\n        return vehicles.count\n    }\n    \n    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {\n        let cell = tableView.dequeueReusableCellWithIdentifier(\"Cell\", forIndexPath: indexPath) as",
+ }
+]

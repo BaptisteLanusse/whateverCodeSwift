@@ -1,0 +1,6 @@
+version: "Apple Swift version 1.2 (swiftlang-602.0.53.1 clang-602.0.53)"
+options: "d4db152493b7fdc403c4d6bd5d5ee0ea"
+inputs: 
+- "/Users/lanussebaptiste/Desktop/DrawPad starter/DrawPad/ViewController.swift"
+- "/Users/lanussebaptiste/Desktop/DrawPad starter/DrawPad/AppDelegate.swift"
+- "/Users/lanussebaptiste/Desktop/DrawPad starter/DrawPad/SettingsViewController.swift"
