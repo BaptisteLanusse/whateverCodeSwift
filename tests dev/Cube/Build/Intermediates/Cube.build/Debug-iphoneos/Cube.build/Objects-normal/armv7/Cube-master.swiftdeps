@@ -1,0 +1,5 @@
+version: "Apple Swift version 1.2 (swiftlang-602.0.53.1 clang-602.0.53)"
+options: "f46726e6a44915328b139071db7dbd9d"
+inputs: 
+- "/Users/lanussebaptiste/Desktop/Cube/Cube/GameViewController.swift"
+- "/Users/lanussebaptiste/Desktop/Cube/Cube/AppDelegate.swift"

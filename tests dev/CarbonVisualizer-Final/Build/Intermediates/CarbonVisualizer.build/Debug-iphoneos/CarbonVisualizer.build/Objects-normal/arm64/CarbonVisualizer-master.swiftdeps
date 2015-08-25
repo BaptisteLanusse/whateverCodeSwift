@@ -1,0 +1,7 @@
+version: "Apple Swift version 1.2 (swiftlang-602.0.53.1 clang-602.0.53)"
+options: "7f4ae501bb5cfbb49605208a07ba635a"
+inputs: 
+- "/Users/lanussebaptiste/Desktop/CarbonVisualizer-Final/CarbonVisualizer/Atoms.swift"
+- "/Users/lanussebaptiste/Desktop/CarbonVisualizer-Final/CarbonVisualizer/ViewController.swift"
+- "/Users/lanussebaptiste/Desktop/CarbonVisualizer-Final/CarbonVisualizer/AppDelegate.swift"
+- "/Users/lanussebaptiste/Desktop/CarbonVisualizer-Final/CarbonVisualizer/Molecules.swift"

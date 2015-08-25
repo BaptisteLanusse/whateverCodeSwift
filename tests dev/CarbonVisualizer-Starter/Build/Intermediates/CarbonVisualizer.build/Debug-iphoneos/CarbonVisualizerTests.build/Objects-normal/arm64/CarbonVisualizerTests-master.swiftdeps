@@ -1,0 +1,4 @@
+version: "Apple Swift version 1.2 (swiftlang-602.0.53.1 clang-602.0.53)"
+options: "c39454ab0bf04386a38e87ff3416b123"
+inputs: 
+- "/Users/lanussebaptiste/Desktop/CarbonVisualizer-Starter/CarbonVisualizerTests/CarbonVisualizerTests.swift"

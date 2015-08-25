@@ -1,0 +1,4 @@
+version: "Apple Swift version 1.2 (swiftlang-602.0.53.1 clang-602.0.53)"
+options: "840b252fdaa632e56bd6599ee305ff73"
+inputs: 
+- "/Users/lanussebaptiste/Desktop/Cube/CubeTests/CubeTests.swift"
