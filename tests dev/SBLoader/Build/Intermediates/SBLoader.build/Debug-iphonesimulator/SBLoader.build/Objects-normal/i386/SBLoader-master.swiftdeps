@@ -1,0 +1,11 @@
+version: "Apple Swift version 1.2 (swiftlang-602.0.53.1 clang-602.0.53)"
+options: "f1ba5c13fc63a847529bad0a34ac7d78"
+inputs: 
+- "/Users/lanussebaptiste/Desktop/SBLoader - Starter/SBLoader/HolderView.swift"
+- "/Users/lanussebaptiste/Desktop/SBLoader - Starter/SBLoader/Colors.swift"
+- "/Users/lanussebaptiste/Desktop/SBLoader - Starter/SBLoader/TriangleLayer.swift"
+- "/Users/lanussebaptiste/Desktop/SBLoader - Starter/SBLoader/OvalLayer.swift"
+- "/Users/lanussebaptiste/Desktop/SBLoader - Starter/SBLoader/ViewController.swift"
+- "/Users/lanussebaptiste/Desktop/SBLoader - Starter/SBLoader/ArcLayer.swift"
+- "/Users/lanussebaptiste/Desktop/SBLoader - Starter/SBLoader/AppDelegate.swift"
+- "/Users/lanussebaptiste/Desktop/SBLoader - Starter/SBLoader/RectangleLayer.swift"

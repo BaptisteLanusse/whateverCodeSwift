@@ -1,0 +1,25 @@
+-x
+objective-c
+-arch
+arm64
+-std=gnu99
+-fobjc-arc
+-gmodules
+-fpascal-strings
+-Os
+-isysroot
+/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk
+-miphoneos-version-min=6.1
+-g
+-fvisibility=hidden
+-fembed-bitcode-marker
+-I/Users/lanussebaptiste/Desktop/PushChatStarter/Build/Products/Release-iphoneos/include
+-I/Users/lanussebaptiste/Desktop/PushChatStarter/Pods/Headers
+-I/Users/lanussebaptiste/Desktop/PushChatStarter/Pods/Headers/AFNetworking
+-I/Users/lanussebaptiste/Desktop/PushChatStarter/Pods/Headers/MBProgressHUD
+-F/Users/lanussebaptiste/Desktop/PushChatStarter/Build/Products/Release-iphoneos
+-DNS_BLOCK_ASSERTIONS=1
+aarch64-apple-darwin14.4.0
+"4.2.1 Compatible Apple LLVM 7.0.0 (clang-700.0.57.2)"
+SDK_PRODUCT_BUILD_VERSION=13A4293g
+13A4293g

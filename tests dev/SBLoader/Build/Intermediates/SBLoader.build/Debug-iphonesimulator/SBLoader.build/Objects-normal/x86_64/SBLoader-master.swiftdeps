@@ -1,0 +1,11 @@
+version: "Apple Swift version 1.2 (swiftlang-602.0.53.1 clang-602.0.53)"
+options: "43e79292cd9d987d372fc022c461c46e"
+inputs: 
+- "/Users/lanussebaptiste/Documents/tests/Developpement/Apple dev swift/whateverCodeSwift/tests dev/SBLoader - Starter/SBLoader/HolderView.swift"
+- "/Users/lanussebaptiste/Documents/tests/Developpement/Apple dev swift/whateverCodeSwift/tests dev/SBLoader - Starter/SBLoader/Colors.swift"
+- "/Users/lanussebaptiste/Documents/tests/Developpement/Apple dev swift/whateverCodeSwift/tests dev/SBLoader - Starter/SBLoader/TriangleLayer.swift"
+- "/Users/lanussebaptiste/Documents/tests/Developpement/Apple dev swift/whateverCodeSwift/tests dev/SBLoader - Starter/SBLoader/OvalLayer.swift"
+- "/Users/lanussebaptiste/Documents/tests/Developpement/Apple dev swift/whateverCodeSwift/tests dev/SBLoader - Starter/SBLoader/ViewController.swift"
+- "/Users/lanussebaptiste/Documents/tests/Developpement/Apple dev swift/whateverCodeSwift/tests dev/SBLoader - Starter/SBLoader/ArcLayer.swift"
+- "/Users/lanussebaptiste/Documents/tests/Developpement/Apple dev swift/whateverCodeSwift/tests dev/SBLoader - Starter/SBLoader/AppDelegate.swift"
+- "/Users/lanussebaptiste/Documents/tests/Developpement/Apple dev swift/whateverCodeSwift/tests dev/SBLoader - Starter/SBLoader/RectangleLayer.swift"
