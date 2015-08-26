@@ -1,0 +1,8 @@
+version: "Apple Swift version 1.2 (swiftlang-602.0.53.1 clang-602.0.53)"
+options: "c8d9ddf3774ebb26b837ae2cf7f01a24"
+inputs: 
+- "/Users/lanussebaptiste/Desktop/IK-Ninja-Starter-Xcode-6.3/IK-Ninja/GameOverScene.swift"
+- "/Users/lanussebaptiste/Desktop/IK-Ninja-Starter-Xcode-6.3/IK-Ninja/GameScene.swift"
+- "/Users/lanussebaptiste/Desktop/IK-Ninja-Starter-Xcode-6.3/IK-Ninja/GameViewController.swift"
+- "/Users/lanussebaptiste/Desktop/IK-Ninja-Starter-Xcode-6.3/IK-Ninja/SKTUtils/CGFloat+Extensions.swift"
+- "/Users/lanussebaptiste/Desktop/IK-Ninja-Starter-Xcode-6.3/IK-Ninja/AppDelegate.swift"

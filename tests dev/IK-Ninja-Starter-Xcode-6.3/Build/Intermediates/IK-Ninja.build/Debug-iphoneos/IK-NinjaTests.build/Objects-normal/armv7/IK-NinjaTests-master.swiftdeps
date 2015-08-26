@@ -1,0 +1,4 @@
+version: "Apple Swift version 1.2 (swiftlang-602.0.53.1 clang-602.0.53)"
+options: "b2b67e9fba0c440ae69d26856fd69382"
+inputs: 
+- "/Users/lanussebaptiste/Desktop/IK-Ninja-Starter-Xcode-6.3/IK-NinjaTests/IK_NinjaTests.swift"
