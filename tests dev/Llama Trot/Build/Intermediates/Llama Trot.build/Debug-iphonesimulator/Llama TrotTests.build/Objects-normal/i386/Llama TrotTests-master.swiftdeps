@@ -1,0 +1,4 @@
+version: "Apple Swift version 1.2 (swiftlang-602.0.53.1 clang-602.0.53)"
+options: "e3655a9365896f1e1cd5d0990d76c1ed"
+inputs: 
+- "/Users/lanussebaptiste/Desktop/Llama Trot/Llama TrotTests/Llama_TrotTests.swift"
