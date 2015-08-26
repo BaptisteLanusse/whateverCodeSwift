@@ -1,0 +1,6 @@
+version: "Apple Swift version 1.2 (swiftlang-602.0.53.1 clang-602.0.53)"
+options: "ab93d2d24c3b56d3034d2031b5e1658c"
+inputs: 
+- "/Users/lanussebaptiste/Desktop/CircularCollectionView/CircularCollectionView/CollectionViewController.swift"
+- "/Users/lanussebaptiste/Desktop/CircularCollectionView/CircularCollectionView/CircularCollectionViewCell.swift"
+- "/Users/lanussebaptiste/Desktop/CircularCollectionView/CircularCollectionView/AppDelegate.swift"
