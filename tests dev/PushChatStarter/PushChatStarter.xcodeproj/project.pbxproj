@@ -222,6 +222,11 @@
 			attributes = {
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Ray Wenderlich";
+				TargetAttributes = {
+					61489E9317041C660049C6F9 = {
+						DevelopmentTeam = 6KJEMHT8QE;
+					};
+				};
 			};
 			buildConfigurationList = 61489E8F17041C660049C6F9 /* Build configuration list for PBXProject "PushChatStarter" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -386,10 +391,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 73A47E9F768A4B9FB9BB5528 /* Pods.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Baptiste Lanusse (5L5H4U9G57)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PushChatStarter/PushChatStarter-Prefix.pch";
 				INFOPLIST_FILE = "PushChatStarter/PushChatStarter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_BUNDLE_IDENTIFIER = fr.bpaca.PushChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "205beebc-28ca-41b1-bf4e-1dcde2754fe2";
@@ -402,10 +409,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 73A47E9F768A4B9FB9BB5528 /* Pods.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Baptiste Lanusse (5L5H4U9G57)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PushChatStarter/PushChatStarter-Prefix.pch";
 				INFOPLIST_FILE = "PushChatStarter/PushChatStarter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_BUNDLE_IDENTIFIER = fr.bpaca.PushChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "205beebc-28ca-41b1-bf4e-1dcde2754fe2";

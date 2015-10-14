@@ -26,6 +26,7 @@ class DataManager {
         success(data: data)
       } catch let error as NSError {
         readError = error
+        print(readError)
       } catch {
         fatalError()
       }

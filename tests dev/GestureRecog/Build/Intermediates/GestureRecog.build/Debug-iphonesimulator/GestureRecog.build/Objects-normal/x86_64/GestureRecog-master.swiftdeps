@@ -1,0 +1,6 @@
+version: "Apple Swift version 1.2 (swiftlang-602.0.53.1 clang-602.0.53)"
+options: "2307610baba8829d94c42eb6698d1490"
+inputs: 
+- "/Users/lanussebaptiste/Documents/tests/Developpement/Apple dev swift/whateverCodeSwift/tests dev/GestureRecog/GestureRecog/ViewController.swift"
+- "/Users/lanussebaptiste/Documents/tests/Developpement/Apple dev swift/whateverCodeSwift/tests dev/GestureRecog/GestureRecog/TickleGestureRecognizer.swift"
+- "/Users/lanussebaptiste/Documents/tests/Developpement/Apple dev swift/whateverCodeSwift/tests dev/GestureRecog/GestureRecog/AppDelegate.swift"

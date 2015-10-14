@@ -1,0 +1,7 @@
+version: "Apple Swift version 1.2 (swiftlang-602.0.53.1 clang-602.0.53)"
+options: "255a5197d28a19d53e4e3a16dd0aa9f2"
+inputs: 
+- "/Users/lanussebaptiste/Desktop/AstucesCheckDownload/AstucesCheckDownload/ViewController.swift"
+- "/Users/lanussebaptiste/Desktop/AstucesCheckDownload/AstucesCheckDownload/TraitementViewController.swift"
+- "/Users/lanussebaptiste/Desktop/AstucesCheckDownload/AstucesCheckDownload/DownloadViewController.swift"
+- "/Users/lanussebaptiste/Desktop/AstucesCheckDownload/AstucesCheckDownload/AppDelegate.swift"

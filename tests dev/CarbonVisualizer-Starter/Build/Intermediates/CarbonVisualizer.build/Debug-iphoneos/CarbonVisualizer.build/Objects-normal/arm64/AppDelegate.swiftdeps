@@ -4,22 +4,22 @@ provides:
 nominals:
 - "C16CarbonVisualizer11AppDelegate"
 class-members:
-- "window"
 - "application"
+- "window"
 top-level:
-- !private "BooleanLiteralType"
 - "Bool"
+- "AnyObject"
+- "UIResponder"
 - "UIWindow"
+- !private "BooleanLiteralType"
+- "UIApplication"
 - "NSObject"
 - "UIApplicationDelegate"
-- "UIApplication"
-- "UIResponder"
-- "AnyObject"
 member-access:
-- "C16CarbonVisualizer11AppDelegate"
-- "PSs9AnyObject"
 - "CSo11UIResponder"
+- "C16CarbonVisualizer11AppDelegate"
 - "CSo8NSObject"
+- "PSs9AnyObject"
 - "PSo21UIApplicationDelegate"
 dynamic-lookup:
 cross-module:

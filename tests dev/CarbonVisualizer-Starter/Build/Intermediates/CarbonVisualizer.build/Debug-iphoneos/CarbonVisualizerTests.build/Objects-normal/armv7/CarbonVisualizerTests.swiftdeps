@@ -4,20 +4,20 @@ provides:
 nominals:
 - "C21CarbonVisualizerTests21CarbonVisualizerTests"
 class-members:
-- "setUp"
 - "tearDown"
+- "setUp"
 - "testExample"
 - "testPerformanceExample"
 top-level:
-- "XCTestCase"
 - !private "XCTAssert"
-- !private "StringLiteralType"
 - !private "BooleanLiteralType"
+- "XCTestCase"
+- !private "StringLiteralType"
 member-access:
-- "CSo6XCTest"
-- !private "C21CarbonVisualizerTests21CarbonVisualizerTests"
 - "CSo10XCTestCase"
 - "PSs9AnyObject"
+- !private "C21CarbonVisualizerTests21CarbonVisualizerTests"
+- "CSo6XCTest"
 - "CSo8NSObject"
 dynamic-lookup:
 cross-module:

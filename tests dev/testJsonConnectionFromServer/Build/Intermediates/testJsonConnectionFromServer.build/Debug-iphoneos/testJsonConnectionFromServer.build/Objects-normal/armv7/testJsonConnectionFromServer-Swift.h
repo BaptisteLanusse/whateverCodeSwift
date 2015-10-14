@@ -105,18 +105,21 @@ SWIFT_CLASS("_TtC28testJsonConnectionFromServer11AppDelegate")
 @property (nonatomic, readonly) BOOL isBool;
 @end
 
+@class NSMutableData;
 @class UITextView;
 @class NSBundle;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC28testJsonConnectionFromServer14ViewController")
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <NSURLConnectionDelegate>
 @property (nonatomic, weak) IBOutlet UITextView * __null_unspecified textView;
+@property (nonatomic) NSMutableData * __nonnull data;
 @property (nonatomic) NSTimeInterval startTime;
 @property (nonatomic) NSTimeInterval endTime;
 - (void)viewDidLoad;
 - (IBAction)GetDatas:(id __nonnull)sender;
 - (void)didReceiveMemoryWarning;
+- (void)checkConnection:(void (^ __nonnull)(void))completion;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

@@ -1,0 +1,1 @@
+/Users/lanussebaptiste/Documents/tests/Developpement/Apple dev swift/whateverCodeSwift/tests dev/AstucesCheckDownload/Build/Intermediates/ArchiveIntermediates/AstucesCheckDownload/InstallationBuildProductsLocation/Applications/AstucesCheckDownload.app

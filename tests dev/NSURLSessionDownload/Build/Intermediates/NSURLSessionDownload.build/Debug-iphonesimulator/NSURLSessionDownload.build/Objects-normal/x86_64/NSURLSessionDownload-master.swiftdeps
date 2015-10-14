@@ -1,0 +1,6 @@
+version: "Apple Swift version 2.0 (swiftlang-700.0.45 clang-700.0.57.2)"
+options: "2a6870caea7bc52f15ab67b206bd2afe"
+build_time: [494608037, 932406000]
+inputs: 
+	/Users/lanussebaptiste/Desktop/NSURLSessionDownload/NSURLSessionDownload/ViewController.swift: !dirty [494604449, 0]
+	/Users/lanussebaptiste/Desktop/NSURLSessionDownload/NSURLSessionDownload/AppDelegate.swift: [494600282, 0]

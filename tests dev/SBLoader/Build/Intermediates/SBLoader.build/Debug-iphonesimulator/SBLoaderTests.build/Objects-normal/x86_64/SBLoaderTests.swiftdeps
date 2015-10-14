@@ -4,21 +4,21 @@ provides:
 nominals:
 - "C13SBLoaderTests13SBLoaderTests"
 class-members:
+- "setUp"
+- "testPerformanceExample"
 - "tearDown"
 - "testExample"
-- "testPerformanceExample"
-- "setUp"
 top-level:
-- "XCTestCase"
 - !private "BooleanLiteralType"
 - !private "XCTAssert"
+- "XCTestCase"
 - !private "StringLiteralType"
 member-access:
+- "CSo6XCTest"
+- "CSo10XCTestCase"
 - "CSo8NSObject"
 - "PSs9AnyObject"
 - !private "C13SBLoaderTests13SBLoaderTests"
-- "CSo6XCTest"
-- "CSo10XCTestCase"
 dynamic-lookup:
 cross-module:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/Swift.swiftmodule"

@@ -1,0 +1,21 @@
+-x
+objective-c
+-arch
+armv7
+-std=gnu99
+-fpascal-strings
+-O0
+-DDEBUG
+-DCOCOS2D_DEBUG=1
+-isysroot
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk
+-g
+-miphoneos-version-min=4.0
+-ICutCutCut/libs
+-I/Users/lanussebaptiste/Desktop/CutCutCut/Build/Products/Debug-iphoneos/include
+-ICutCutCut/libs/kazmath/include
+-F/Users/lanussebaptiste/Desktop/CutCutCut/Build/Products/Debug-iphoneos
+arm-apple-darwin14.5.0
+"4.2.1 Compatible Apple LLVM 6.1.0 (clang-602.0.53)"
+SDK_PRODUCT_BUILD_VERSION=12H141
+12H141

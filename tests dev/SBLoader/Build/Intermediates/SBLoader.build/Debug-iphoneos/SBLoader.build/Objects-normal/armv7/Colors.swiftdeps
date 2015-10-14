@@ -8,10 +8,10 @@ top-level:
 - "UIColor"
 - "/"
 member-access:
+- "CSo8NSObject"
 - "V8SBLoader6Colors"
 - "CSo7UIColor"
 - "V12CoreGraphics7CGFloat"
-- "CSo8NSObject"
 dynamic-lookup:
 cross-module:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/32/Swift.swiftmodule"

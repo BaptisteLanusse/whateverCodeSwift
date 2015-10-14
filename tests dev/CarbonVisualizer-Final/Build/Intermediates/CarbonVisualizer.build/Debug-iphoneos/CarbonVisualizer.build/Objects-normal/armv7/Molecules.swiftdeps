@@ -5,17 +5,17 @@ nominals:
 - "C16CarbonVisualizer9Molecules"
 class-members:
 top-level:
-- !private "Atoms"
-- "SCNVector3"
 - !private "SCNVector3Make"
 - !private "+"
-- "SCNGeometry"
 - "SCNNode"
+- !private "Atoms"
+- "SCNVector3"
+- "SCNGeometry"
 member-access:
-- !private "C16CarbonVisualizer5Atoms"
-- "C16CarbonVisualizer9Molecules"
 - !private "CSo8NSObject"
 - "PSs9AnyObject"
+- !private "C16CarbonVisualizer5Atoms"
+- "C16CarbonVisualizer9Molecules"
 - !private "CSo7SCNNode"
 dynamic-lookup:
 cross-module:

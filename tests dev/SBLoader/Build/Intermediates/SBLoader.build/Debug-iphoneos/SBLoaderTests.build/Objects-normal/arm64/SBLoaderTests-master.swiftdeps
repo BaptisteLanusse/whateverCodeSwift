@@ -1,0 +1,4 @@
+version: "Apple Swift version 1.2 (swiftlang-602.0.53.1 clang-602.0.53)"
+options: "d7c412a7d50a3c7186ef881eebc0d146"
+inputs: 
+- "/Users/lanussebaptiste/Documents/tests/Developpement/Apple dev swift/whateverCodeSwift/tests dev/SBLoader/SBLoaderTests/SBLoaderTests.swift"

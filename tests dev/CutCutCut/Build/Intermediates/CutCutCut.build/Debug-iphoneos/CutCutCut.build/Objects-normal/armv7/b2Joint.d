@@ -1,0 +1,27 @@
+dependencies: \
+  /Users/lanussebaptiste/Desktop/CutCutCut/CutCutCut/libs/Box2D/Dynamics/Joints/b2Joint.cpp \
+  CutCutCut/libs/Box2D/Dynamics/Joints/b2Joint.h \
+  CutCutCut/libs/Box2D/Common/b2Math.h \
+  CutCutCut/libs/Box2D/Common/b2Settings.h \
+  CutCutCut/libs/Box2D/Dynamics/Joints/b2DistanceJoint.h \
+  CutCutCut/libs/Box2D/Dynamics/Joints/b2WheelJoint.h \
+  CutCutCut/libs/Box2D/Dynamics/Joints/b2MouseJoint.h \
+  CutCutCut/libs/Box2D/Dynamics/Joints/b2RevoluteJoint.h \
+  CutCutCut/libs/Box2D/Dynamics/Joints/b2PrismaticJoint.h \
+  CutCutCut/libs/Box2D/Dynamics/Joints/b2PulleyJoint.h \
+  CutCutCut/libs/Box2D/Dynamics/Joints/b2GearJoint.h \
+  CutCutCut/libs/Box2D/Dynamics/Joints/b2WeldJoint.h \
+  CutCutCut/libs/Box2D/Dynamics/Joints/b2FrictionJoint.h \
+  CutCutCut/libs/Box2D/Dynamics/Joints/b2RopeJoint.h \
+  CutCutCut/libs/Box2D/Dynamics/b2Body.h \
+  CutCutCut/libs/Box2D/Collision/Shapes/b2Shape.h \
+  CutCutCut/libs/Box2D/Common/b2BlockAllocator.h \
+  CutCutCut/libs/Box2D/Collision/b2Collision.h \
+  CutCutCut/libs/Box2D/Dynamics/b2World.h \
+  CutCutCut/libs/Box2D/Common/b2StackAllocator.h \
+  CutCutCut/libs/Box2D/Dynamics/b2ContactManager.h \
+  CutCutCut/libs/Box2D/Collision/b2BroadPhase.h \
+  CutCutCut/libs/Box2D/Collision/b2DynamicTree.h \
+  CutCutCut/libs/Box2D/Common/b2GrowableStack.h \
+  CutCutCut/libs/Box2D/Dynamics/b2WorldCallbacks.h \
+  CutCutCut/libs/Box2D/Dynamics/b2TimeStep.h

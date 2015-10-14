@@ -1,0 +1,6 @@
+version: "Apple Swift version 1.2 (swiftlang-602.0.53.1 clang-602.0.53)"
+options: "9996d24019fa2e030fc3bf4f8b878864"
+inputs: 
+- "/Users/lanussebaptiste/Documents/tests/Developpement/Apple dev swift/whateverCodeSwift/tests dev/TwitterOpening/TwitterOpening/ViewController.swift"
+- "/Users/lanussebaptiste/Documents/tests/Developpement/Apple dev swift/whateverCodeSwift/tests dev/TwitterOpening/TwitterOpening/AppDelegate.swift"
+- "/Users/lanussebaptiste/Documents/tests/Developpement/Apple dev swift/whateverCodeSwift/tests dev/TwitterOpening/TwitterOpening/HamburgerButton.swift"

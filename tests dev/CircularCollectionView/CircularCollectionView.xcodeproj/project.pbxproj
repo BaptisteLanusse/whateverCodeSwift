@@ -18,6 +18,7 @@
 		1264DB721AFF385B00840B41 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1264DB711AFF385B00840B41 /* CollectionViewController.swift */; };
 		1284E0FF1B045F0F00FE9424 /* bg-dark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1284E0FE1B045F0F00FE9424 /* bg-dark.jpg */; };
 		962BCCC81B8DBFD100014EF0 /* CircularCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962BCCC71B8DBFD100014EF0 /* CircularCollectionViewLayout.swift */; };
+		968115601B95F4AF005C62A8 /* +x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9681155F1B95F4AF005C62A8 /* +x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		1264DB711AFF385B00840B41 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		1284E0FE1B045F0F00FE9424 /* bg-dark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bg-dark.jpg"; sourceTree = "<group>"; };
 		962BCCC71B8DBFD100014EF0 /* CircularCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularCollectionViewLayout.swift; sourceTree = "<group>"; };
+		9681155F1B95F4AF005C62A8 /* +x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "+x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				121FE6F31AF8ABBB00CB9C1A /* Images.xcassets */,
 				121FE6F51AF8ABBB00CB9C1A /* LaunchScreen.xib */,
 				1284E0FE1B045F0F00FE9424 /* bg-dark.jpg */,
+				9681155F1B95F4AF005C62A8 /* +x.png */,
 				120233431B03AA6E009DAE0A /* Images */,
 				121FE6EA1AF8ABBB00CB9C1A /* Supporting Files */,
 			);
@@ -217,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				120233481B03B741009DAE0A /* CircularCollectionViewCell.xib in Resources */,
+				968115601B95F4AF005C62A8 /* +x.png in Resources */,
 				120233441B03AA6E009DAE0A /* Images in Resources */,
 				121FE6F21AF8ABBB00CB9C1A /* Main.storyboard in Resources */,
 				121FE6F71AF8ABBB00CB9C1A /* LaunchScreen.xib in Resources */,

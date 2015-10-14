@@ -1,0 +1,8 @@
+version: "Apple Swift version 1.2 (swiftlang-602.0.53.1 clang-602.0.53)"
+options: "eae9927e00d7035e44225bb7cab58a94"
+inputs: 
+- !dirty "/Users/lanussebaptiste/Documents/tests/Developpement/Apple dev swift/whateverCodeSwift/tests dev/JSONUse/TopApps/ViewController.swift"
+- !dirty "/Users/lanussebaptiste/Documents/tests/Developpement/Apple dev swift/whateverCodeSwift/tests dev/JSONUse/TopApps/AppModel.swift"
+- !dirty "/Users/lanussebaptiste/Documents/tests/Developpement/Apple dev swift/whateverCodeSwift/tests dev/JSONUse/TopApps/AppDelegate.swift"
+- !dirty "/Users/lanussebaptiste/Documents/tests/Developpement/Apple dev swift/whateverCodeSwift/tests dev/JSONUse/TopApps/SwiftyJSON.swift"
+- !dirty "/Users/lanussebaptiste/Documents/tests/Developpement/Apple dev swift/whateverCodeSwift/tests dev/JSONUse/TopApps/DataManager.swift"

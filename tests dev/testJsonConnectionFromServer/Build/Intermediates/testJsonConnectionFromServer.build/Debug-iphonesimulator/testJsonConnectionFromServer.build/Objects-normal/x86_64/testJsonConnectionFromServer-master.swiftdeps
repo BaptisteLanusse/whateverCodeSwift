@@ -1,6 +1,7 @@
-version: "Apple Swift version 2.0 (swiftlang-700.0.45 clang-700.0.57.2)"
-options: "7bb7d152fbcfce62412308f7ee55a3be"
-build_time: [492104541, 278972000]
+version: "Apple Swift version 1.2 (swiftlang-602.0.53.1 clang-602.0.53)"
+options: "034491f52c6b8d4ab0b5e22b857a7ac7"
 inputs: 
-	/Users/lanussebaptiste/Desktop/testJsonConnectionFromServer/testJsonConnectionFromServer/ViewController.swift: [492104533, 0]
-	/Users/lanussebaptiste/Desktop/testJsonConnectionFromServer/testJsonConnectionFromServer/AppDelegate.swift: [492104418, 0]
+- !dirty "/Users/lanussebaptiste/Documents/tests/Developpement/Apple dev swift/whateverCodeSwift/tests dev/testJsonConnectionFromServer/testJsonConnectionFromServer/SwiftyJSON.swift"
+- !dirty "/Users/lanussebaptiste/Documents/tests/Developpement/Apple dev swift/whateverCodeSwift/tests dev/testJsonConnectionFromServer/testJsonConnectionFromServer/DataManager.swift"
+- !dirty "/Users/lanussebaptiste/Documents/tests/Developpement/Apple dev swift/whateverCodeSwift/tests dev/testJsonConnectionFromServer/testJsonConnectionFromServer/ViewController.swift"
+- !dirty "/Users/lanussebaptiste/Documents/tests/Developpement/Apple dev swift/whateverCodeSwift/tests dev/testJsonConnectionFromServer/testJsonConnectionFromServer/AppDelegate.swift"

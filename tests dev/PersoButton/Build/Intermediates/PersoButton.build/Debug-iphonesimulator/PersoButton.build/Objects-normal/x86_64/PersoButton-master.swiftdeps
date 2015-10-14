@@ -1,0 +1,8 @@
+version: "Apple Swift version 1.2 (swiftlang-602.0.53.1 clang-602.0.53)"
+options: "856e53e5c0c45777e175894cdf4907c8"
+inputs: 
+- "/Users/lanussebaptiste/Desktop/PersoButton/PersoButton/SpringySlider.swift"
+- "/Users/lanussebaptiste/Desktop/PersoButton/PersoButton/ViewController.swift"
+- "/Users/lanussebaptiste/Desktop/PersoButton/PersoButton/AppDelegate.swift"
+- "/Users/lanussebaptiste/Desktop/PersoButton/PersoButton/HamburgerButton.swift"
+- "/Users/lanussebaptiste/Desktop/PersoButton/PersoButton/SpringAnimation.swift"

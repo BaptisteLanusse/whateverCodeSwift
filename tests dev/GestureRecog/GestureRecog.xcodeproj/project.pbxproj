@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		962C97801B95F5AD002CD9C6 /* +x.png in Resources */ = {isa = PBXBuildFile; fileRef = 962C977F1B95F5AD002CD9C6 /* +x.png */; };
 		968F0D5F1B063F5D00887695 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968F0D5E1B063F5D00887695 /* AppDelegate.swift */; };
 		968F0D611B063F5D00887695 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968F0D601B063F5D00887695 /* ViewController.swift */; };
 		968F0D641B063F5D00887695 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 968F0D621B063F5D00887695 /* Main.storyboard */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		962C977F1B95F5AD002CD9C6 /* +x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "+x.png"; sourceTree = "<group>"; };
 		968F0D591B063F5D00887695 /* GestureRecog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GestureRecog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		968F0D5D1B063F5D00887695 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		968F0D5E1B063F5D00887695 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				968F0D7F1B063F8F00887695 /* banana@2x.png */,
 				968F0D801B063F8F00887695 /* chomp.caf */,
 				968F0D811B063F8F00887695 /* hehehe1.caf */,
+				962C977F1B95F5AD002CD9C6 /* +x.png */,
 				968F0D821B063F8F00887695 /* monkey.png */,
 				968F0D831B063F8F00887695 /* monkey@2x.png */,
 				968F0D671B063F5D00887695 /* LaunchScreen.xib */,
@@ -215,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				962C97801B95F5AD002CD9C6 /* +x.png in Resources */,
 				968F0D881B063F8F00887695 /* monkey.png in Resources */,
 				968F0D861B063F8F00887695 /* chomp.caf in Resources */,
 				968F0D641B063F5D00887695 /* Main.storyboard in Resources */,
@@ -444,6 +448,7 @@
 				968F0D7A1B063F5D00887695 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		968F0D7B1B063F5D00887695 /* Build configuration list for PBXNativeTarget "GestureRecogTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +457,7 @@
 				968F0D7D1B063F5D00887695 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
