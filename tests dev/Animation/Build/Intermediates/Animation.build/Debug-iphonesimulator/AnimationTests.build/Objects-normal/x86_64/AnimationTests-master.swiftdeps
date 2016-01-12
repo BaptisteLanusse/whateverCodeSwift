@@ -1,0 +1,5 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "9f335d5e64dcb5bd2bb8c27d32e847e7"
+build_time: [505836338, 121974000]
+inputs:
+  "/Users/lanussebaptiste/Documents/tests/Developpement/Apple dev swift/whateverCodeSwift/tests dev/Animation/AnimationTests/AnimationTests.swift": [482499295, 0]

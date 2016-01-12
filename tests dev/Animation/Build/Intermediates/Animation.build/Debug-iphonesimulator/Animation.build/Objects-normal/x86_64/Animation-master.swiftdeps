@@ -1,0 +1,6 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "15e42536ee63fcf89f6338937a327774"
+build_time: [505836332, 684006000]
+inputs:
+  "/Users/lanussebaptiste/Documents/tests/Developpement/Apple dev swift/whateverCodeSwift/tests dev/Animation/Animation/AppDelegate.swift": [482499295, 0]
+  "/Users/lanussebaptiste/Documents/tests/Developpement/Apple dev swift/whateverCodeSwift/tests dev/Animation/Animation/ViewController.swift": [482499820, 0]
