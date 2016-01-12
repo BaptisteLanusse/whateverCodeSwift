@@ -1,0 +1,8 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "d993fb94502870587da6385229c035a3"
+build_time: [505909681, 650494000]
+inputs:
+  "/Users/lanussebaptiste/Desktop/CandySearch Starter/CandySearch/MasterViewController.swift": [505909681, 0]
+  "/Users/lanussebaptiste/Desktop/CandySearch Starter/CandySearch/DetailViewController.swift": [495242859, 0]
+  "/Users/lanussebaptiste/Desktop/CandySearch Starter/CandySearch/Candy.swift": [494257891, 0]
+  "/Users/lanussebaptiste/Desktop/CandySearch Starter/CandySearch/AppDelegate.swift": [494532676, 0]
